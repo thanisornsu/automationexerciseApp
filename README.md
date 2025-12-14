@@ -17,7 +17,8 @@ A comprehensive QA automation framework for [Automation Exercise](https://automa
 - **[AI Agent Quick Reference](./docs/AI_AGENT_QUICK_REFERENCE.md)** - 🤖 One-page cheat sheet for AI agent usage ⭐ NEW!
 
 ### Complete Guides
-- **[CI/CD Workflow Guide](./CI_CD_WORKFLOW_GUIDE.md)** - Complete feature development process
+- **[CI/CD Workflow Guide](./docs/CI_CD_WORKFLOW_GUIDE.md)** - Complete feature development process
+- **[GitHub Actions Setup](./docs/GITHUB_ACTIONS_SETUP.md)** - 🚀 CI/CD pipeline setup guide ⭐ NEW!
 - **[Allure Best Practices](./docs/ALLURE_BEST_PRACTICES.md)** - Comprehensive reporting guide
 - **[Allure Quick Reference](./docs/ALLURE_QUICK_REFERENCE.md)** - Copy-paste templates
 
@@ -258,12 +259,34 @@ npm run allure:open        # Open in browser
 5. **Group related tests** with `test.describe`
 6. **Use beforeEach** for common setup
 
+## 🚀 CI/CD Pipeline
+
+This project includes GitHub Actions workflows for automated testing:
+
+### Workflows
+
+- **`ci.yml`** - Main CI/CD pipeline (runs on push/PR)
+- **`smoke-tests.yml`** - Quick smoke tests
+- **`nightly-regression.yml`** - Full regression suite (scheduled)
+
+### Features
+
+- ✅ Automatic test execution on push/PR
+- ✅ Allure report generation and deployment
+- ✅ Test artifacts (screenshots, videos)
+- ✅ GitHub Pages integration
+- ✅ PR comments with test results
+
+**Setup Guide:** [GitHub Actions Setup](./docs/GITHUB_ACTIONS_SETUP.md)
+
+**View Workflows:** [Actions Tab](https://github.com/thanisornsu/automationexerciseApp/actions)
+
 ## 🗺️ Roadmap
 
 - [x] Phase 1: Setup + Login/Register tests
 - [ ] Phase 2: Product + Cart tests
 - [ ] Phase 3: Checkout E2E + API tests
-- [ ] Phase 4: CI/CD + Full reporting
+- [x] Phase 4: CI/CD + Full reporting ✅
 
 ## 👤 Author
 
