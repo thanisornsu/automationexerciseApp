@@ -1,0 +1,45 @@
+{
+  "name": "automation-exercise-playwright",
+  "version": "1.0.0",
+  "description": "Full Loop QA Automation for Automation Exercise using Playwright + TypeScript",
+  "author": "THANISORN",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:frontend": "playwright test tests/frontend/",
+    "test:api": "playwright test tests/api/",
+    "test:frontend:auth": "playwright test tests/frontend/auth/",
+    "test:frontend:products": "playwright test tests/frontend/products/",
+    "test:frontend:cart": "playwright test tests/frontend/cart/",
+    "test:frontend:checkout": "playwright test tests/frontend/checkout/",
+    "test:api:auth": "playwright test tests/api/auth/",
+    "test:api:products": "playwright test tests/api/products/",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:smoke:api": "playwright test tests/api/ --grep @smoke",
+    "test:smoke:frontend": "playwright test tests/frontend/ --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:security": "playwright test --grep @security",
+    "report": "playwright show-report",
+    "allure:clean": "rimraf allure-results allure-report",
+    "allure:generate": "allure generate allure-results -o allure-report --clean",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "test:allure": "npm run allure:clean && playwright test && npm run allure:generate && npm run allure:open",
+    "test:ci": "playwright test --reporter=list,allure-playwright",
+    "test:retry-failed": "playwright test --last-failed"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^24.10.2",
+    "allure-playwright": "^3.0.0",
+    "dotenv": "^16.4.0",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

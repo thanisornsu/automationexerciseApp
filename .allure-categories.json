@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Product Defects",
+    "description": "Tests failed due to application bugs",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Test Defects",
+    "description": "Tests failed due to test script issues",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*TypeError.*|.*ReferenceError.*"
+  },
+  {
+    "name": "Timeout Issues",
+    "description": "Tests failed due to timeout",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": ".*TimeoutError.*|.*timeout.*"
+  },
+  {
+    "name": "Network Issues",
+    "description": "Tests failed due to network problems",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*net::ERR.*|.*ECONNREFUSED.*"
+  },
+  {
+    "name": "Authentication Issues",
+    "description": "Tests failed due to login/auth problems",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*login.*|.*authentication.*|.*credentials.*"
+  }
+]

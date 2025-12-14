@@ -1,0 +1,126 @@
+name: Playwright Tests with Allure Report
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+  schedule:
+    # Run nightly at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  test:
+    name: Run Playwright Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright tests
+        run: npm run test:ci
+        continue-on-error: true  # Continue to generate report even if tests fail
+
+      - name: Generate Allure Report
+        if: always()
+        run: |
+          npm run allure:generate
+
+      - name: Upload Allure Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results/
+          retention-days: 30
+
+      - name: Upload Allure Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: allure-report/
+          retention-days: 30
+
+      - name: Deploy Allure Report to GitHub Pages
+        if: always() && github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          destination_dir: allure-report-${{ github.run_number }}
+          keep_files: true
+
+      - name: Comment PR with Report Link
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const runNumber = context.runNumber;
+            const reportUrl = `https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/allure-report-${runNumber}/`;
+            const comment = `## 📊 Test Results\n\n✅ Allure Report: ${reportUrl}\n\n📦 [Download Artifacts](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})`;
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+      - name: Upload test artifacts (screenshots, videos)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-artifacts
+          path: |
+            test-results/
+            playwright-report/
+          retention-days: 7
+
+  # Send notification on failure (optional)
+  notify:
+    name: Send Notifications
+    needs: test
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Slack notification
+        # Add your Slack webhook or other notification service
+        run: |
+          echo "Tests failed! Send notification here."
+          # Example: curl -X POST -H 'Content-type: application/json' --data '{"text":"Tests failed!"}' $SLACK_WEBHOOK_URL
+
+---
+
+# How to use this file:
+
+# 1. Rename to: .github/workflows/playwright-allure.yml
+# 2. Enable GitHub Pages in repository settings:
+#    Settings → Pages → Source: gh-pages branch
+# 3. Push to main branch
+# 4. Check Actions tab for test results
+# 5. View Allure report at: https://YOUR_USERNAME.github.io/YOUR_REPO/allure-report-RUN_NUMBER/
+
+# Optional: Add Slack notifications
+# 1. Create Slack webhook: https://api.slack.com/messaging/webhooks
+# 2. Add secret in GitHub: Settings → Secrets → SLACK_WEBHOOK_URL
+# 3. Uncomment notify job and replace with your webhook
+
+# Optional: Run on schedule
+# The cron schedule is already configured (nightly at 2 AM UTC)
+# Modify the cron expression as needed
