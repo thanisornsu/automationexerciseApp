@@ -4,25 +4,37 @@ A comprehensive QA automation framework for [Automation Exercise](https://automa
 
 ## 📚 Documentation
 
+**📖 [View Complete Documentation Index](./docs/README.md)** - All guides organized by category
+
 ### 🚀 New to the Project? Start Here!
+
 - **[Example Walkthrough](./docs/EXAMPLE_WALKTHROUGH.md)** - Real-world 3-day feature development example
 - **[Folder Structure Guide](./docs/FOLDER_STRUCTURE_GUIDE.md)** - Frontend vs API test organization ⭐
 - **[AI Agent Best Practices](./docs/AI_AGENT_BEST_PRACTICES.md)** - 🤖 How to effectively use AI agents for QA automation ⭐ NEW!
 - **[AI Agent Examples](./docs/AI_AGENT_EXAMPLES.md)** - 🤖 Real-world prompt examples (good vs bad) ⭐ NEW!
 
 ### Quick Start Guides
+
 - **[Folder Structure Summary](./docs/FOLDER_STRUCTURE_SUMMARY.md)** - Implementation overview
-- **[Workflow Cheat Sheet](./WORKFLOW_CHEAT_SHEET.md)** - Daily commands and quick reference
-- **[Visual Workflow](./VISUAL_WORKFLOW.md)** - Step-by-step diagrams and flowcharts
+- **[Workflow Cheat Sheet](./docs/WORKFLOW_CHEAT_SHEET.md)** - Daily commands and quick reference
+- **[Visual Workflow](./docs/VISUAL_WORKFLOW.md)** - Step-by-step diagrams and flowcharts
 - **[AI Agent Quick Reference](./docs/AI_AGENT_QUICK_REFERENCE.md)** - 🤖 One-page cheat sheet for AI agent usage ⭐ NEW!
 
+### Setup & Configuration
+
+- **[GitHub Setup Guide](./docs/setup/GITHUB_SETUP_GUIDE.md)** - How to push code to GitHub (Thai)
+- **[GitHub Action Checklist](./docs/setup/GITHUB_ACTION_CHECKLIST.md)** - Pre-push checklist (Thai)
+
 ### Complete Guides
+
+- **[CI/CD Learning Path](./docs/CI_CD_LEARNING_PATH.md)** - 🎓 แนะนำลำดับการอ่านเพื่อทำความเข้าใจ CI/CD ⭐ **เริ่มที่นี่!**
 - **[CI/CD Workflow Guide](./docs/CI_CD_WORKFLOW_GUIDE.md)** - Complete feature development process
 - **[GitHub Actions Setup](./docs/GITHUB_ACTIONS_SETUP.md)** - 🚀 CI/CD pipeline setup guide ⭐ NEW!
 - **[Allure Best Practices](./docs/ALLURE_BEST_PRACTICES.md)** - Comprehensive reporting guide
 - **[Allure Quick Reference](./docs/ALLURE_QUICK_REFERENCE.md)** - Copy-paste templates
 
 ### Templates
+
 - **[Pull Request Template](./.github/PULL_REQUEST_TEMPLATE.md)** - PR checklist and format
 - **[Bug Report Template](./.github/ISSUE_TEMPLATE/bug_report.md)** - Report test failures
 - **[Feature Request Template](./.github/ISSUE_TEMPLATE/feature_request.md)** - Request new tests
@@ -128,61 +140,65 @@ npm run report
 
 ### Login Tests (`login.spec.ts`)
 
-| Test ID | Description | Priority |
-|---------|-------------|----------|
-| TC_LOGIN_001 | Verify login page elements are visible | High |
-| TC_LOGIN_002 | Login with invalid email | High |
-| TC_LOGIN_003 | Login with invalid password | High |
-| TC_LOGIN_004 | Login form validation - empty fields | Medium |
-| TC_LOGIN_005 | Login and Logout flow | Critical |
-| TC_LOGIN_006 | SQL injection attempt | High |
-| TC_LOGIN_007 | XSS attempt in email | High |
+| Test ID      | Description                            | Priority |
+| ------------ | -------------------------------------- | -------- |
+| TC_LOGIN_001 | Verify login page elements are visible | High     |
+| TC_LOGIN_002 | Login with invalid email               | High     |
+| TC_LOGIN_003 | Login with invalid password            | High     |
+| TC_LOGIN_004 | Login form validation - empty fields   | Medium   |
+| TC_LOGIN_005 | Login and Logout flow                  | Critical |
+| TC_LOGIN_006 | SQL injection attempt                  | High     |
+| TC_LOGIN_007 | XSS attempt in email                   | High     |
 
 ### Registration Tests (`register.spec.ts`)
 
-| Test ID | Description | Priority |
-|---------|-------------|----------|
-| TC_REG_001 | Complete user registration - Full flow | Critical |
-| TC_REG_002 | Registration with minimum required fields | High |
-| TC_REG_003 | Registration with existing email | High |
-| TC_REG_004 | Signup form validation - Empty name | Medium |
-| TC_REG_005 | Invalid email format validation | Medium |
-| TC_REG_006 | Country selection dropdown | Low |
-| TC_REG_007 | Date of birth selection | Low |
-| TC_REG_008 | Newsletter checkboxes | Low |
-| TC_REG_009 | Title (Mr/Mrs) selection | Low |
-| TC_REG_010 | Special characters in name | Medium |
-| TC_REG_011 | Long input values | Medium |
+| Test ID    | Description                               | Priority |
+| ---------- | ----------------------------------------- | -------- |
+| TC_REG_001 | Complete user registration - Full flow    | Critical |
+| TC_REG_002 | Registration with minimum required fields | High     |
+| TC_REG_003 | Registration with existing email          | High     |
+| TC_REG_004 | Signup form validation - Empty name       | Medium   |
+| TC_REG_005 | Invalid email format validation           | Medium   |
+| TC_REG_006 | Country selection dropdown                | Low      |
+| TC_REG_007 | Date of birth selection                   | Low      |
+| TC_REG_008 | Newsletter checkboxes                     | Low      |
+| TC_REG_009 | Title (Mr/Mrs) selection                  | Low      |
+| TC_REG_010 | Special characters in name                | Medium   |
+| TC_REG_011 | Long input values                         | Medium   |
 
 ## 🎯 Key Features
 
 ### Page Object Model (POM)
+
 - Clean separation of test logic and page interactions
 - Reusable page methods
 - Centralized locators
 
 ### Custom Test Fixtures
+
 ```typescript
 // Use page objects as fixtures
-test('example', async ({ loginPage, signupPage }) => {
+test("example", async ({ loginPage, signupPage }) => {
   await loginPage.navigate();
   await loginPage.login(credentials);
 });
 ```
 
 ### Dynamic Test Data
+
 ```typescript
 // Generate random test data
 const userData = TestDataFactory.generateRegistrationData();
 
 // Override specific fields
 const customUser = TestDataFactory.generateRegistrationData({
-  country: 'Australia',
+  country: "Australia",
   newsletter: true,
 });
 ```
 
 ### Built-in Assertions
+
 ```typescript
 await loginPage.verifyLoginPageIsDisplayed();
 await loginPage.loginExpectSuccess(credentials);
@@ -211,6 +227,7 @@ HEADLESS=true
 ## 📊 Reporting
 
 ### HTML Report
+
 ```bash
 npm run report
 ```
@@ -218,11 +235,13 @@ npm run report
 ### Allure Report (Recommended for Production)
 
 **Quick start:**
+
 ```bash
 npm run test:allure    # Clean → Test → Generate → Open (all in one)
 ```
 
 **Individual steps:**
+
 ```bash
 npm run allure:clean       # Clean old results
 npm test                   # Run tests
@@ -231,6 +250,7 @@ npm run allure:open        # Open in browser
 ```
 
 **📚 Documentation:**
+
 - **Quick Reference**: [ALLURE_QUICK_REFERENCE.md](./ALLURE_QUICK_REFERENCE.md) - Copy-paste templates
 - **Best Practices**: [ALLURE_BEST_PRACTICES.md](./ALLURE_BEST_PRACTICES.md) - Complete guide
 - **Example Test**: [tests/examples/allure-enhanced-test.example.ts](./tests/examples/allure-enhanced-test.example.ts)
