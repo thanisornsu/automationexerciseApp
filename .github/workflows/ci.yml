@@ -199,36 +199,12 @@ jobs:
               testSummary += `🌐 [View Allure Report](${reportUrl})\n\n`;
             }
 
-            // Add screenshot if available
+            // Add screenshot link if available
             const screenshotPath = path.join(process.cwd(), 'report-screenshot.png');
             if (fs.existsSync(screenshotPath)) {
-              try {
-                // Upload screenshot to GitHub repository
-                const screenshotContent = fs.readFileSync(screenshotPath);
-                const screenshotBase64 = screenshotContent.toString('base64');
-                
-                const screenshotFileName = `pr-${{ github.event.pull_request.number }}-report-${context.runNumber}.png`;
-                
-                // Upload to repository
-                await github.rest.repos.createOrUpdateFileContents({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  path: `.github/screenshots/${screenshotFileName}`,
-                  message: `Add test report screenshot for PR #${{ github.event.pull_request.number }}`,
-                  content: screenshotBase64,
-                  branch: '${{ github.head_ref }}',
-                });
-                
-                // Get raw URL
-                const screenshotUrl = `https://raw.githubusercontent.com/${context.repo.owner}/${context.repo.repo}/${{ github.head_ref }}/.github/screenshots/${screenshotFileName}`;
-                
-                testSummary += `### 📸 Report Screenshot\n\n`;
-                testSummary += `![Test Report](${screenshotUrl})\n\n`;
-                testSummary += `📥 [Download Screenshot Artifact](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})\n\n`;
-              } catch (error) {
-                // Fallback: just show artifact link
-                testSummary += `📸 [View Report Screenshot](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) (Download artifact: report-screenshot-${{ github.run_number }})\n\n`;
-              }
+              testSummary += `### 📸 Report Screenshot\n\n`;
+              testSummary += `📥 [Download Screenshot](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) (Artifact: \`report-screenshot-${{ github.run_number }}\`)\n\n`;
+              testSummary += `💡 **Tip:** Download the screenshot artifact from the Actions run to view the test report visualization.\n\n`;
             }
 
             testSummary += `🔗 [View Full Workflow Run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})\n`;
