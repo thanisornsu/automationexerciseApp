@@ -9,6 +9,8 @@ on:
     # Run nightly regression tests at 2 AM UTC
     # - cron: "0 2 * * *"
   workflow_dispatch: # Allow manual trigger
+permissions:
+  contents: write
 
 env:
   NODE_VERSION: "18"
