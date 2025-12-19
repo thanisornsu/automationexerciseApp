@@ -11,7 +11,7 @@ test.describe('API: Login Authentication', () => {
   const baseURL = 'https://automationexercise.com';
   const loginEndpoint = '/api/verifyLogin';
 
-  test('TC_API_LOGIN_001: Valid login credentials return success', async ({ request }) => {
+  test('TC_API_LOGIN_001 @smoke: Valid login credentials return success', async ({ request }) => {
     // Allure annotations
     test.info().annotations.push(
       { type: 'severity', description: 'critical' },

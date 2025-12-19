@@ -5,6 +5,9 @@ on:
     branches: [main, develop]
   pull_request:
     branches: [main, develop]
+  schedule:
+    # Run every night at midnight UTC+7 (17:00 UTC)
+    - cron: "0 17 * * *"
   workflow_dispatch:
 
 permissions:
@@ -35,8 +38,37 @@ jobs:
       - name: 🎭 Install Playwright browsers
         run: npx playwright install --with-deps chromium
 
+      - name: 🔧 Install Allure Commandline
+        run: |
+          wget https://github.com/allure-framework/allure2/releases/download/2.24.1/allure-2.24.1.tgz
+          tar -zxf allure-2.24.1.tgz -C /opt/
+          ln -s /opt/allure-2.24.1/bin/allure /usr/local/bin/allure
+
       - name: 🧪 Run Smoke Tests
         run: npm run test:smoke
+        continue-on-error: true
+
+      - name: 📊 Generate Allure Report
+        if: always()
+        run: npm run allure:generate
+
+      - name: 📤 Upload Allure Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-test-allure-results
+          path: allure-results/
+          retention-days: 7
+          if-no-files-found: warn
+
+      - name: 📤 Upload Allure Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-test-allure-report
+          path: allure-report/
+          retention-days: 7
+          if-no-files-found: warn
 
       - name: 📤 Upload Test Results
         if: always()
@@ -47,3 +79,4 @@ jobs:
             test-results/
             playwright-report/
           retention-days: 7
+          if-no-files-found: warn

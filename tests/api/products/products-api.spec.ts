@@ -9,7 +9,7 @@ import { test, expect } from '@playwright/test';
 test.describe('API: Products', () => {
   const baseURL = 'https://automationexercise.com';
 
-  test('TC_API_PROD_001: Get all products list', async ({ request }) => {
+  test('TC_API_PROD_001 @smoke: Get all products list', async ({ request }) => {
     test.info().annotations.push(
       { type: 'severity', description: 'critical' },
       { type: 'tag', description: 'api' },

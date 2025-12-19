@@ -16,7 +16,7 @@ test.describe('Login Functionality', () => {
     await loginPage.navigate();
   });
 
-  test('TC_LOGIN_001: Verify login page elements are visible', async ({ loginPage }) => {
+  test('TC_LOGIN_001 @smoke: Verify login page elements are visible', async ({ loginPage }) => {
     // Allure annotations
     test.info().annotations.push(
       { type: 'severity', description: 'critical' },
