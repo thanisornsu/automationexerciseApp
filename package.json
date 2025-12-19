@@ -27,7 +27,7 @@
     "allure:open": "allure open allure-report",
     "allure:serve": "allure serve allure-results",
     "test:allure": "npm run allure:clean && playwright test && npm run allure:generate && npm run allure:open",
-    "test:ci": "playwright test --reporter=list,allure-playwright",
+    "test:ci": "playwright test --reporter=html,list,allure-playwright",
     "test:retry-failed": "playwright test --last-failed"
   },
   "devDependencies": {
