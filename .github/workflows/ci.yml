@@ -148,98 +148,72 @@ jobs:
           if-no-files-found: ignore
           retention-days: 7
 
+      - name: 📊 Parse Test Results
+        if: always() && github.event_name == 'pull_request'
+        id: test-results
+        run: |
+          if [ -d "allure-results" ]; then
+            passed=0
+            failed=0
+            broken=0
+            skipped=0
+            
+            for file in allure-results/*.json; do
+              if [ -f "$file" ]; then
+                status=$(jq -r '.status // empty' "$file" 2>/dev/null || echo "")
+                case "$status" in
+                  "passed") ((passed++)) ;;
+                  "failed") ((failed++)) ;;
+                  "broken") ((broken++)) ;;
+                  "skipped") ((skipped++)) ;;
+                esac
+              fi
+            done
+            
+            total=$((passed + failed + broken + skipped))
+            
+            echo "passed=$passed" >> $GITHUB_OUTPUT
+            echo "failed=$failed" >> $GITHUB_OUTPUT
+            echo "broken=$broken" >> $GITHUB_OUTPUT
+            echo "skipped=$skipped" >> $GITHUB_OUTPUT
+            echo "total=$total" >> $GITHUB_OUTPUT
+          else
+            echo "passed=0" >> $GITHUB_OUTPUT
+            echo "failed=0" >> $GITHUB_OUTPUT
+            echo "broken=0" >> $GITHUB_OUTPUT
+            echo "skipped=0" >> $GITHUB_OUTPUT
+            echo "total=0" >> $GITHUB_OUTPUT
+          fi
+
       - name: 💬 Comment PR with Test Results
         if: always() && github.event_name == 'pull_request'
-        uses: actions/github-script@v7
+        uses: peter-evans/create-or-update-comment@v4
         with:
-          script: |
-            const fs = require('fs');
-            const path = require('path');
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ## 📊 Test Execution Results
 
-            // Get test results summary
-            let testSummary = '## 📊 Test Execution Results\n\n';
+            ### Test Summary
 
-            // Try to read test results if available
-            try {
-              const resultsPath = path.join(process.cwd(), 'allure-results');
-              if (fs.existsSync(resultsPath)) {
-                // Parse test results
-                const files = fs.readdirSync(resultsPath).filter(f => f.endsWith('.json'));
-                let passed = 0, failed = 0, broken = 0, skipped = 0;
-                
-                files.forEach(file => {
-                  try {
-                    const content = JSON.parse(fs.readFileSync(path.join(resultsPath, file), 'utf8'));
-                    if (content.status === 'passed') passed++;
-                    else if (content.status === 'failed') failed++;
-                    else if (content.status === 'broken') broken++;
-                    else if (content.status === 'skipped') skipped++;
-                  } catch (e) {}
-                });
+            | Status | Count |
+            |--------|-------|
+            | ✅ Passed | ${{ steps.test-results.outputs.passed }} |
+            | ❌ Failed | ${{ steps.test-results.outputs.failed }} |
+            | 🔴 Broken | ${{ steps.test-results.outputs.broken }} |
+            | ⏭️ Skipped | ${{ steps.test-results.outputs.skipped }} |
+            | **Total** | **${{ steps.test-results.outputs.total }}** |
 
-                const total = passed + failed + broken + skipped;
-                
-                // Create summary table
-                testSummary += '### Test Summary\n\n';
-                testSummary += '| Status | Count |\n';
-                testSummary += '|--------|-------|\n';
-                testSummary += `| ✅ Passed | ${passed} |\n`;
-                testSummary += `| ❌ Failed | ${failed} |\n`;
-                testSummary += `| 🔴 Broken | ${broken} |\n`;
-                testSummary += `| ⏭️ Skipped | ${skipped} |\n`;
-                testSummary += `| **Total** | **${total}** |\n\n`;
-                
-                testSummary += `📦 [Download Allure Report Artifact](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})\n\n`;
-              }
-            } catch (error) {
-              testSummary += '⚠️ Could not read test results\n\n';
-            }
+            📦 [Download Allure Report Artifact](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
 
-            // Add report link if on main branch
-            if ('${{ github.ref }}' === 'refs/heads/main') {
-              const reportUrl = `https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/allure-report-${{ github.run_number }}/`;
-              testSummary += `🌐 [View Allure Report](${reportUrl})\n\n`;
-            }
+            ### 📸 Report Screenshot
 
-            // Add screenshot link if available
-            const screenshotPath = path.join(process.cwd(), 'report-screenshot.png');
-            if (fs.existsSync(screenshotPath)) {
-              testSummary += `### 📸 Report Screenshot\n\n`;
-              testSummary += `📥 [Download Screenshot](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) (Artifact: \`report-screenshot-${{ github.run_number }}\`)\n\n`;
-              testSummary += `💡 **Tip:** Download the screenshot artifact from the Actions run to view the test report visualization.\n\n`;
-            }
+            📥 [Download Screenshot](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) (Artifact: `report-screenshot-${{ github.run_number }}`)
 
-            testSummary += `🔗 [View Full Workflow Run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})\n`;
+            💡 **Tip:** Download the screenshot artifact from the Actions run to view the test report visualization.
 
-            // Find existing comment
-            const comments = await github.rest.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-            });
-
-            const botComment = comments.data.find(comment => 
-              comment.user.type === 'Bot' && 
-              comment.body.includes('Test Execution Results')
-            );
-
-            if (botComment) {
-              // Update existing comment
-              await github.rest.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: botComment.id,
-                body: testSummary
-              });
-            } else {
-              // Create new comment
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: testSummary
-              });
-            }
+            🔗 [View Full Workflow Run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          edit-mode: replace
+          comment-tag: test-results
 
   # Optional: Send notifications on failure
   notify:
