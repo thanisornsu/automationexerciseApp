@@ -1,0 +1,79 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e40]:
+    - heading [level=2] [ref=e41]: Account Created!
+    - paragraph [ref=e42]: Congratulations! Your new account has been successfully created!
+    - paragraph [ref=e43]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+    - link [ref=e45] [cursor=pointer]:
+      - /url: /
+      - text: Continue
+  - contentinfo [ref=e46]:
+    - generic [ref=e51]:
+      - heading [level=2] [ref=e52]: Subscription
+      - generic [ref=e53]:
+        - textbox [ref=e54]:
+          - /placeholder: Your email address
+        - button [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: 
+        - paragraph [ref=e57]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e61]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e62]:
+    - iframe [ref=e65]:
+      - generic [active] [ref=f41e1]:
+        - generic [ref=f41e3]:
+          - link:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CLyM6f-GAaY-QEq2o9cYP2L_fuQm0qaqMhQGR39m-yhXb2R4QASD9tJ6VAWC7BqABmL2QnCrIAQKpAjOlO7mF4LM-qAMByAPJBKoE8AFP0BWBTwcctYu2Zb5MjaMFUWHb_yJPQ98g1ra04r4Our3biOt_uCiRrRV3xXK-PDlBf1f-YQIhTcQDtLUp46-X68qmB2HmawIC0zc8D0CuZ4bLIRGpM_WASDracDJ5Vl56kl6dpRq5yTpLBYT-CM37mzkfGUjAZEU_hO9wyBk10Rj8-AgYg_9RKrvTsmIPMZMChDosZpzaFxErMXcKAsjjpJ3AU3lImdCf6xs-6X4-Y16wcxW6t0HJWb3QQQH8XutPVa49pM9keW0K8RlzmxIEzCKPhnNV8bmhUgPCYoMwsAALsjuVGtWaiaJHB__fNPPABJiQudnPBYgF9K-F0legBgKAB5j14PsEqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggxCJHhgFAQARifAzIIq4uAgICAgAo6DYBAgMCAgICAqIACqANIvf3BOlj58r6GrbuSA7EJUlHPUr-7uOOACgGYCwHICwGiDAOQAQGqDQJHQsgNAfANAogOCdgTAtAVAZgWAcoWAgoA-BYBgBcBshcCGAG6FwI4AbIYBRgCIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIz8vChq27kgMVLVTdAh3Y3zeXEAEYASAAEgI2e_D_BwE&num=1&sig=AOD64_1dV_QOjd-2ykgJUW_nwpq89CfdFg&client=ca-pub-1677597403311019&rf=2&nb=2&adurl=https://ask.gieni.com/%3Fgad_source%3D5%26gad_campaignid%3D23525939188%26gclid%3DEAIaIQobChMIz8vChq27kgMVLVTdAh3Y3zeXEAEYASAAEgI2e_D_BwE
+          - img [ref=f41e7] [cursor=pointer]
+          - button [ref=f41e10] [cursor=pointer]:
+            - img [ref=f41e11]
+        - iframe
+```
