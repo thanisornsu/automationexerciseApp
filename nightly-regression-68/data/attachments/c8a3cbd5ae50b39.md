@@ -1,0 +1,99 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e38]:
+    - generic [ref=e40]:
+      - heading [level=2] [ref=e41]: Account Created!
+      - paragraph [ref=e42]: Congratulations! Your new account has been successfully created!
+      - paragraph [ref=e43]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+      - link [ref=e45] [cursor=pointer]:
+        - /url: /
+        - text: Continue
+    - insertion [ref=e47]:
+      - iframe [ref=e49]:
+        - generic [active] [ref=f27e1]:
+          - generic [ref=f27e6]:
+            - link [ref=f27e7] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRH9CF6qUabu-D5ibjeYPj9rLmQWuqqujhQHT89TQixWhpvjz0B0QASD9tJ6VAWDJnvmGgICgGaAB5NKWwinIAQmpAiyfec9-17M-qAMByAPLBKoEiQJP0D83HNWxHyXNW0B_bKgd5Ix-dEr2OxO_V7C7lXEgPA92RIF6LsZRgCWtjCv_bLIH1Kvtbp4XD9LcvJrZ7pJVTiiKkHpZAVohQcikuSwLmR8eQRxVF8lVCgFgkYwksqGoBP73vAo2GvtSUd5oLXiuf5kMnZyUMvtt8kIa9B7h0zZVQYxFRNhRMElh4gkd-CktEi-hvyLNuV37Cd8xrqTaroFBwfjfxFCCsQ7XYAZvq0uwVI5PYh-ODrmpZ3wesqoNeZZHssLykxaZlVuD3VuC2OhzAujYdqCUcMsuYoCkZrmzx75JLydzaNM4oh15dJOATFniuIxa4f4fgfgDAGrme7JcDbLBiH6lwATdspy8hQWIBcKs7OZSoAYugAfkiuehBKgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNvvgYOL4ZIDsQkgQpSsZRWpT4AKAZgLAcgLAYAMAaIMCyoGCgTW2rECkAEBqg0CVVPIDQHqDRMItaeFg4vhkgMVmE3DBh0P7TJT8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKwUxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE&num=1&cid=CAQSnwEA56J1eeUXwNZk_s0QZOdJ8292nqJCNrmsJT7y5z0VJevyJhwh_xZNoHssqFcd_fMU-3IDidMrH91gkvDqAOmbSAamM80sUK-9zskdUfDAs7RzdzNy770mY6IZk6va6lFmThd6DUO-EUEYzROxUV9WXXsz0HCvOU5cRHVs8Y6GCIPK2k-XkKTvsrhn3ZQPYIny09nmHqrjrB08LfzkFCMYAQ&sig=AOD64_3kPqqmuRnhcybRumGsRpH3gFWOFA&client=ca-pub-1677597403311019&rf=1&nb=9&adurl=https://enshrouded.com/%3Fchannel%3DPMax%26campaign%3D22231205518%26ad_group%3D%26ad%3D%26utm_source%3Dpmax%26utm_medium%3Dcpc%26utm_campaign%3D22231205518%26utm_content%3D%26utm_term%3D%26placement%3D%26keyword%3D%26utm_id%3D22231205518%26gad_source%3D5%26gad_campaignid%3D22227392066%26gclid%3DEAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE
+              - img [ref=f27e8]
+            - generic [ref=f27e10]:
+              - generic [ref=f27e13]:
+                - link "Action RPG Adventure" [ref=f27e16] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRH9CF6qUabu-D5ibjeYPj9rLmQWuqqujhQHT89TQixWhpvjz0B0QASD9tJ6VAWDJnvmGgICgGaAB5NKWwinIAQmpAiyfec9-17M-qAMByAPLBKoEiQJP0D83HNWxHyXNW0B_bKgd5Ix-dEr2OxO_V7C7lXEgPA92RIF6LsZRgCWtjCv_bLIH1Kvtbp4XD9LcvJrZ7pJVTiiKkHpZAVohQcikuSwLmR8eQRxVF8lVCgFgkYwksqGoBP73vAo2GvtSUd5oLXiuf5kMnZyUMvtt8kIa9B7h0zZVQYxFRNhRMElh4gkd-CktEi-hvyLNuV37Cd8xrqTaroFBwfjfxFCCsQ7XYAZvq0uwVI5PYh-ODrmpZ3wesqoNeZZHssLykxaZlVuD3VuC2OhzAujYdqCUcMsuYoCkZrmzx75JLydzaNM4oh15dJOATFniuIxa4f4fgfgDAGrme7JcDbLBiH6lwATdspy8hQWIBcKs7OZSoAYugAfkiuehBKgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNvvgYOL4ZIDsQkgQpSsZRWpT4AKAZgLAcgLAYAMAaIMCyoGCgTW2rECkAEBqg0CVVPIDQHqDRMItaeFg4vhkgMVmE3DBh0P7TJT8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKwUxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE&num=1&cid=CAQSnwEA56J1eeUXwNZk_s0QZOdJ8292nqJCNrmsJT7y5z0VJevyJhwh_xZNoHssqFcd_fMU-3IDidMrH91gkvDqAOmbSAamM80sUK-9zskdUfDAs7RzdzNy770mY6IZk6va6lFmThd6DUO-EUEYzROxUV9WXXsz0HCvOU5cRHVs8Y6GCIPK2k-XkKTvsrhn3ZQPYIny09nmHqrjrB08LfzkFCMYAQ&sig=AOD64_3kPqqmuRnhcybRumGsRpH3gFWOFA&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://enshrouded.com/%3Fchannel%3DPMax%26campaign%3D22231205518%26ad_group%3D%26ad%3D%26utm_source%3Dpmax%26utm_medium%3Dcpc%26utm_campaign%3D22231205518%26utm_content%3D%26utm_term%3D%26placement%3D%26keyword%3D%26utm_id%3D22231205518%26gad_source%3D5%26gad_campaignid%3D22227392066%26gclid%3DEAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE
+                - link "Explore, craft, and survive in a vast open world." [ref=f27e19] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRH9CF6qUabu-D5ibjeYPj9rLmQWuqqujhQHT89TQixWhpvjz0B0QASD9tJ6VAWDJnvmGgICgGaAB5NKWwinIAQmpAiyfec9-17M-qAMByAPLBKoEiQJP0D83HNWxHyXNW0B_bKgd5Ix-dEr2OxO_V7C7lXEgPA92RIF6LsZRgCWtjCv_bLIH1Kvtbp4XD9LcvJrZ7pJVTiiKkHpZAVohQcikuSwLmR8eQRxVF8lVCgFgkYwksqGoBP73vAo2GvtSUd5oLXiuf5kMnZyUMvtt8kIa9B7h0zZVQYxFRNhRMElh4gkd-CktEi-hvyLNuV37Cd8xrqTaroFBwfjfxFCCsQ7XYAZvq0uwVI5PYh-ODrmpZ3wesqoNeZZHssLykxaZlVuD3VuC2OhzAujYdqCUcMsuYoCkZrmzx75JLydzaNM4oh15dJOATFniuIxa4f4fgfgDAGrme7JcDbLBiH6lwATdspy8hQWIBcKs7OZSoAYugAfkiuehBKgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNvvgYOL4ZIDsQkgQpSsZRWpT4AKAZgLAcgLAYAMAaIMCyoGCgTW2rECkAEBqg0CVVPIDQHqDRMItaeFg4vhkgMVmE3DBh0P7TJT8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKwUxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE&num=1&cid=CAQSnwEA56J1eeUXwNZk_s0QZOdJ8292nqJCNrmsJT7y5z0VJevyJhwh_xZNoHssqFcd_fMU-3IDidMrH91gkvDqAOmbSAamM80sUK-9zskdUfDAs7RzdzNy770mY6IZk6va6lFmThd6DUO-EUEYzROxUV9WXXsz0HCvOU5cRHVs8Y6GCIPK2k-XkKTvsrhn3ZQPYIny09nmHqrjrB08LfzkFCMYAQ&sig=AOD64_3kPqqmuRnhcybRumGsRpH3gFWOFA&client=ca-pub-1677597403311019&rf=1&nb=7&adurl=https://enshrouded.com/%3Fchannel%3DPMax%26campaign%3D22231205518%26ad_group%3D%26ad%3D%26utm_source%3Dpmax%26utm_medium%3Dcpc%26utm_campaign%3D22231205518%26utm_content%3D%26utm_term%3D%26placement%3D%26keyword%3D%26utm_id%3D22231205518%26gad_source%3D5%26gad_campaignid%3D22227392066%26gclid%3DEAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE
+              - generic [ref=f27e22]:
+                - link:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRH9CF6qUabu-D5ibjeYPj9rLmQWuqqujhQHT89TQixWhpvjz0B0QASD9tJ6VAWDJnvmGgICgGaAB5NKWwinIAQmpAiyfec9-17M-qAMByAPLBKoEiQJP0D83HNWxHyXNW0B_bKgd5Ix-dEr2OxO_V7C7lXEgPA92RIF6LsZRgCWtjCv_bLIH1Kvtbp4XD9LcvJrZ7pJVTiiKkHpZAVohQcikuSwLmR8eQRxVF8lVCgFgkYwksqGoBP73vAo2GvtSUd5oLXiuf5kMnZyUMvtt8kIa9B7h0zZVQYxFRNhRMElh4gkd-CktEi-hvyLNuV37Cd8xrqTaroFBwfjfxFCCsQ7XYAZvq0uwVI5PYh-ODrmpZ3wesqoNeZZHssLykxaZlVuD3VuC2OhzAujYdqCUcMsuYoCkZrmzx75JLydzaNM4oh15dJOATFniuIxa4f4fgfgDAGrme7JcDbLBiH6lwATdspy8hQWIBcKs7OZSoAYugAfkiuehBKgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNvvgYOL4ZIDsQkgQpSsZRWpT4AKAZgLAcgLAYAMAaIMCyoGCgTW2rECkAEBqg0CVVPIDQHqDRMItaeFg4vhkgMVmE3DBh0P7TJT8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKwUxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE&num=1&cid=CAQSnwEA56J1eeUXwNZk_s0QZOdJ8292nqJCNrmsJT7y5z0VJevyJhwh_xZNoHssqFcd_fMU-3IDidMrH91gkvDqAOmbSAamM80sUK-9zskdUfDAs7RzdzNy770mY6IZk6va6lFmThd6DUO-EUEYzROxUV9WXXsz0HCvOU5cRHVs8Y6GCIPK2k-XkKTvsrhn3ZQPYIny09nmHqrjrB08LfzkFCMYAQ&sig=AOD64_3kPqqmuRnhcybRumGsRpH3gFWOFA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://enshrouded.com/%3Fchannel%3DPMax%26campaign%3D22231205518%26ad_group%3D%26ad%3D%26utm_source%3Dpmax%26utm_medium%3Dcpc%26utm_campaign%3D22231205518%26utm_content%3D%26utm_term%3D%26placement%3D%26keyword%3D%26utm_id%3D22231205518%26gad_source%3D5%26gad_campaignid%3D22227392066%26gclid%3DEAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE
+                - link "Keen Games" [ref=f27e24] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRH9CF6qUabu-D5ibjeYPj9rLmQWuqqujhQHT89TQixWhpvjz0B0QASD9tJ6VAWDJnvmGgICgGaAB5NKWwinIAQmpAiyfec9-17M-qAMByAPLBKoEiQJP0D83HNWxHyXNW0B_bKgd5Ix-dEr2OxO_V7C7lXEgPA92RIF6LsZRgCWtjCv_bLIH1Kvtbp4XD9LcvJrZ7pJVTiiKkHpZAVohQcikuSwLmR8eQRxVF8lVCgFgkYwksqGoBP73vAo2GvtSUd5oLXiuf5kMnZyUMvtt8kIa9B7h0zZVQYxFRNhRMElh4gkd-CktEi-hvyLNuV37Cd8xrqTaroFBwfjfxFCCsQ7XYAZvq0uwVI5PYh-ODrmpZ3wesqoNeZZHssLykxaZlVuD3VuC2OhzAujYdqCUcMsuYoCkZrmzx75JLydzaNM4oh15dJOATFniuIxa4f4fgfgDAGrme7JcDbLBiH6lwATdspy8hQWIBcKs7OZSoAYugAfkiuehBKgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNvvgYOL4ZIDsQkgQpSsZRWpT4AKAZgLAcgLAYAMAaIMCyoGCgTW2rECkAEBqg0CVVPIDQHqDRMItaeFg4vhkgMVmE3DBh0P7TJT8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKwUxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE&num=1&cid=CAQSnwEA56J1eeUXwNZk_s0QZOdJ8292nqJCNrmsJT7y5z0VJevyJhwh_xZNoHssqFcd_fMU-3IDidMrH91gkvDqAOmbSAamM80sUK-9zskdUfDAs7RzdzNy770mY6IZk6va6lFmThd6DUO-EUEYzROxUV9WXXsz0HCvOU5cRHVs8Y6GCIPK2k-XkKTvsrhn3ZQPYIny09nmHqrjrB08LfzkFCMYAQ&sig=AOD64_3kPqqmuRnhcybRumGsRpH3gFWOFA&client=ca-pub-1677597403311019&rf=1&nb=1&adurl=https://enshrouded.com/%3Fchannel%3DPMax%26campaign%3D22231205518%26ad_group%3D%26ad%3D%26utm_source%3Dpmax%26utm_medium%3Dcpc%26utm_campaign%3D22231205518%26utm_content%3D%26utm_term%3D%26placement%3D%26keyword%3D%26utm_id%3D22231205518%26gad_source%3D5%26gad_campaignid%3D22227392066%26gclid%3DEAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE
+                - link "Download" [ref=f27e26] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRH9CF6qUabu-D5ibjeYPj9rLmQWuqqujhQHT89TQixWhpvjz0B0QASD9tJ6VAWDJnvmGgICgGaAB5NKWwinIAQmpAiyfec9-17M-qAMByAPLBKoEiQJP0D83HNWxHyXNW0B_bKgd5Ix-dEr2OxO_V7C7lXEgPA92RIF6LsZRgCWtjCv_bLIH1Kvtbp4XD9LcvJrZ7pJVTiiKkHpZAVohQcikuSwLmR8eQRxVF8lVCgFgkYwksqGoBP73vAo2GvtSUd5oLXiuf5kMnZyUMvtt8kIa9B7h0zZVQYxFRNhRMElh4gkd-CktEi-hvyLNuV37Cd8xrqTaroFBwfjfxFCCsQ7XYAZvq0uwVI5PYh-ODrmpZ3wesqoNeZZHssLykxaZlVuD3VuC2OhzAujYdqCUcMsuYoCkZrmzx75JLydzaNM4oh15dJOATFniuIxa4f4fgfgDAGrme7JcDbLBiH6lwATdspy8hQWIBcKs7OZSoAYugAfkiuehBKgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNvvgYOL4ZIDsQkgQpSsZRWpT4AKAZgLAcgLAYAMAaIMCyoGCgTW2rECkAEBqg0CVVPIDQHqDRMItaeFg4vhkgMVmE3DBh0P7TJT8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKwUxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE&num=1&cid=CAQSnwEA56J1eeUXwNZk_s0QZOdJ8292nqJCNrmsJT7y5z0VJevyJhwh_xZNoHssqFcd_fMU-3IDidMrH91gkvDqAOmbSAamM80sUK-9zskdUfDAs7RzdzNy770mY6IZk6va6lFmThd6DUO-EUEYzROxUV9WXXsz0HCvOU5cRHVs8Y6GCIPK2k-XkKTvsrhn3ZQPYIny09nmHqrjrB08LfzkFCMYAQ&sig=AOD64_3kPqqmuRnhcybRumGsRpH3gFWOFA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://enshrouded.com/%3Fchannel%3DPMax%26campaign%3D22231205518%26ad_group%3D%26ad%3D%26utm_source%3Dpmax%26utm_medium%3Dcpc%26utm_campaign%3D22231205518%26utm_content%3D%26utm_term%3D%26placement%3D%26keyword%3D%26utm_id%3D22231205518%26gad_source%3D5%26gad_campaignid%3D22227392066%26gclid%3DEAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE
+                - link [ref=f27e27] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CRH9CF6qUabu-D5ibjeYPj9rLmQWuqqujhQHT89TQixWhpvjz0B0QASD9tJ6VAWDJnvmGgICgGaAB5NKWwinIAQmpAiyfec9-17M-qAMByAPLBKoEiQJP0D83HNWxHyXNW0B_bKgd5Ix-dEr2OxO_V7C7lXEgPA92RIF6LsZRgCWtjCv_bLIH1Kvtbp4XD9LcvJrZ7pJVTiiKkHpZAVohQcikuSwLmR8eQRxVF8lVCgFgkYwksqGoBP73vAo2GvtSUd5oLXiuf5kMnZyUMvtt8kIa9B7h0zZVQYxFRNhRMElh4gkd-CktEi-hvyLNuV37Cd8xrqTaroFBwfjfxFCCsQ7XYAZvq0uwVI5PYh-ODrmpZ3wesqoNeZZHssLykxaZlVuD3VuC2OhzAujYdqCUcMsuYoCkZrmzx75JLydzaNM4oh15dJOATFniuIxa4f4fgfgDAGrme7JcDbLBiH6lwATdspy8hQWIBcKs7OZSoAYugAfkiuehBKgHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNvvgYOL4ZIDsQkgQpSsZRWpT4AKAZgLAcgLAYAMAaIMCyoGCgTW2rECkAEBqg0CVVPIDQHqDRMItaeFg4vhkgMVmE3DBh0P7TJT8A0CiA4J2BMM0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKwUxguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE&num=1&cid=CAQSnwEA56J1eeUXwNZk_s0QZOdJ8292nqJCNrmsJT7y5z0VJevyJhwh_xZNoHssqFcd_fMU-3IDidMrH91gkvDqAOmbSAamM80sUK-9zskdUfDAs7RzdzNy770mY6IZk6va6lFmThd6DUO-EUEYzROxUV9WXXsz0HCvOU5cRHVs8Y6GCIPK2k-XkKTvsrhn3ZQPYIny09nmHqrjrB08LfzkFCMYAQ&sig=AOD64_3kPqqmuRnhcybRumGsRpH3gFWOFA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://enshrouded.com/%3Fchannel%3DPMax%26campaign%3D22231205518%26ad_group%3D%26ad%3D%26utm_source%3Dpmax%26utm_medium%3Dcpc%26utm_campaign%3D22231205518%26utm_content%3D%26utm_term%3D%26placement%3D%26keyword%3D%26utm_id%3D22231205518%26gad_source%3D5%26gad_campaignid%3D22227392066%26gclid%3DEAIaIQobChMI-6WFg4vhkgMVmE3DBh0P7TJTEAEYASAAEgJarfD_BwE
+                  - generic [ref=f27e28]:
+                    - img [ref=f27e29]
+                    - img [ref=f27e31]
+          - img [ref=f27e39] [cursor=pointer]
+          - button [ref=f27e42] [cursor=pointer]:
+            - img [ref=f27e43]
+          - iframe
+  - contentinfo [ref=e50]:
+    - generic [ref=e55]:
+      - heading [level=2] [ref=e56]: Subscription
+      - generic [ref=e57]:
+        - textbox [ref=e58]:
+          - /placeholder: Your email address
+        - button [ref=e59] [cursor=pointer]:
+          - generic [ref=e60]: 
+        - paragraph [ref=e61]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e65]: Copyright © 2021 All rights reserved
+  - text: 
+```
