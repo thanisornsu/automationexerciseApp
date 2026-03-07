@@ -1,0 +1,72 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - insertion [ref=e38]:
+    - iframe [ref=e40]:
+      
+  - generic [ref=e44]:
+    - heading [level=2] [ref=e45]: Account Created!
+    - paragraph [ref=e46]: Congratulations! Your new account has been successfully created!
+    - paragraph [ref=e47]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+    - link [ref=e49] [cursor=pointer]:
+      - /url: /
+      - text: Continue
+  - contentinfo [ref=e50]:
+    - generic [ref=e55]:
+      - heading [level=2] [ref=e56]: Subscription
+      - generic [ref=e57]:
+        - textbox [ref=e58]:
+          - /placeholder: Your email address
+        - button [ref=e59] [cursor=pointer]:
+          - generic [ref=e60]: 
+        - paragraph [ref=e61]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e65]: Copyright © 2021 All rights reserved
+  - text: 
+```
