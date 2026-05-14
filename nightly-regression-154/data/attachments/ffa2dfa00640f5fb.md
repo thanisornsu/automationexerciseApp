@@ -1,0 +1,92 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e40]:
+    - heading [level=2] [ref=e41]: Account Created!
+    - paragraph [ref=e42]: Congratulations! Your new account has been successfully created!
+    - paragraph [ref=e43]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+    - link [ref=e45] [cursor=pointer]:
+      - /url: /
+      - text: Continue
+  - contentinfo [ref=e46]:
+    - generic [ref=e51]:
+      - heading [level=2] [ref=e52]: Subscription
+      - generic [ref=e53]:
+        - textbox [ref=e54]:
+          - /placeholder: Your email address
+        - button [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: 
+        - paragraph [ref=e57]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e61]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e62]:
+    - iframe [ref=e65]:
+      - generic [active] [ref=f32e1]:
+        - generic [ref=f32e6]:
+          - generic [ref=f32e7]:
+            - generic "leansixsigma.learnworlds.com" [ref=f32e8]:
+              - link "40% off Lean Six Sigma Courses - 12 Months Course Access" [ref=f32e10] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CoB9HqhQGatzNMILhkPIPjfC14ALR8Yz3hgHZlvmd4hWr59fzxgEQASD9tJ6VAWDJvsmGxKPIF6ABq-TTl0PIAQGpAnq3obK4P6g-qAMByAPDBKoEkAJP0FusN_CXOGggKNNYw2GlNSn35TuC8EJblwSCJnaoH6k0ql7KjIW4bLAGFuQ5pWuXXwitt4MGiID9QplVM4PhhnoMjFo2bZavVwHYU9oJsMGZwplf8vffHsW9Ls3ZTYGXcbCD3csvNW3ZzinVWxrq1FVllziqvbro-1TBVWuqvvTCCprgCazhVmqjqJBVht-oYbyfv_n0fmT1N52LnamJ7lRsXqtuOoTTBYQrfE0TInvcko2wc3hOW1xXuMwObn_ZlYaTUGXFCTaogA5FTpTIrST0jJOYR0dawVER7VQ4Mm3h-A0rZ-fbl_fH4RPuPbimBHwIXxwEJIKTbylgvKHKv0DyfxmktcGiznhb4WscXcAEnPzQt9sFiAXnr77hWKAGZoAHq5yk9x2oB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDEIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOQEEi9_cE6WPiu7Ma0uZQDsQk4iVgtHIIMOoAKAZgLAcgLAaoNAlVTyA0B6g0TCJrS7Ma0uZQDFYIwRAgdDXgNLPANAogOCdgTDYgUBtAVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKGVBhmIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI3MrsxrS5lAMVgjBECB0NeA0sEAEYASAAEgIyhvD_BwE&num=1&cid=CAQS0AEABaugffj5MREa_ql7qtjhP4geAG7UEaqJz-vFDUyZxYUyq-4LHiHBC60C0lcMN70cdqdqjdy2rsYaISsy0wVRoDcjOdGxyi4wuxAP3Pcd-zgQtmypDwGcRPkG19IYy-FeVQr0RiO5p7faiQjk47pB2mnU9s5lH5g2put1AHG0LyvfNoK3khOD5zhsZa6pTycJCMhXxZ3FCH3u1C7UGSuFe5UA3lM6dm8soxdONwtTdCISEwbZ_RrITiSUtfozMSRKgfmSw9On9mRMDkXDVHemGAE&sig=AOD64_2uXCdvEL_-cFtwwlMoWBn8NT05gA&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://leansixsigma.learnworlds.com%3Fgad_source%3D5%26gad_campaignid%3D23826765799%26gclid%3DEAIaIQobChMI3MrsxrS5lAMVgjBECB0NeA0sEAEYASAAEgIyhvD_BwE
+                - text: 40% off Lean Six Sigma Courses - 12 Months
+                - text: Course Access
+            - link "Join millions who have discovered how to create efficient and effective workplaces leansixsigma.learnworlds.com" [ref=f32e12] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CoB9HqhQGatzNMILhkPIPjfC14ALR8Yz3hgHZlvmd4hWr59fzxgEQASD9tJ6VAWDJvsmGxKPIF6ABq-TTl0PIAQGpAnq3obK4P6g-qAMByAPDBKoEkAJP0FusN_CXOGggKNNYw2GlNSn35TuC8EJblwSCJnaoH6k0ql7KjIW4bLAGFuQ5pWuXXwitt4MGiID9QplVM4PhhnoMjFo2bZavVwHYU9oJsMGZwplf8vffHsW9Ls3ZTYGXcbCD3csvNW3ZzinVWxrq1FVllziqvbro-1TBVWuqvvTCCprgCazhVmqjqJBVht-oYbyfv_n0fmT1N52LnamJ7lRsXqtuOoTTBYQrfE0TInvcko2wc3hOW1xXuMwObn_ZlYaTUGXFCTaogA5FTpTIrST0jJOYR0dawVER7VQ4Mm3h-A0rZ-fbl_fH4RPuPbimBHwIXxwEJIKTbylgvKHKv0DyfxmktcGiznhb4WscXcAEnPzQt9sFiAXnr77hWKAGZoAHq5yk9x2oB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDEIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOQEEi9_cE6WPiu7Ma0uZQDsQk4iVgtHIIMOoAKAZgLAcgLAaoNAlVTyA0B6g0TCJrS7Ma0uZQDFYIwRAgdDXgNLPANAogOCdgTDYgUBtAVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKGVBhmIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI3MrsxrS5lAMVgjBECB0NeA0sEAEYASAAEgIyhvD_BwE&num=1&cid=CAQS0AEABaugffj5MREa_ql7qtjhP4geAG7UEaqJz-vFDUyZxYUyq-4LHiHBC60C0lcMN70cdqdqjdy2rsYaISsy0wVRoDcjOdGxyi4wuxAP3Pcd-zgQtmypDwGcRPkG19IYy-FeVQr0RiO5p7faiQjk47pB2mnU9s5lH5g2put1AHG0LyvfNoK3khOD5zhsZa6pTycJCMhXxZ3FCH3u1C7UGSuFe5UA3lM6dm8soxdONwtTdCISEwbZ_RrITiSUtfozMSRKgfmSw9On9mRMDkXDVHemGAE&sig=AOD64_2uXCdvEL_-cFtwwlMoWBn8NT05gA&client=ca-pub-1677597403311019&rf=1&nb=7&adurl=https://leansixsigma.learnworlds.com%3Fgad_source%3D5%26gad_campaignid%3D23826765799%26gclid%3DEAIaIQobChMI3MrsxrS5lAMVgjBECB0NeA0sEAEYASAAEgIyhvD_BwE
+              - text: Join millions who have discovered how to create efficient and effective workplaces
+              - text: leansixsigma.learnworlds.com
+          - link "OPEN" [ref=f32e15] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CoB9HqhQGatzNMILhkPIPjfC14ALR8Yz3hgHZlvmd4hWr59fzxgEQASD9tJ6VAWDJvsmGxKPIF6ABq-TTl0PIAQGpAnq3obK4P6g-qAMByAPDBKoEkAJP0FusN_CXOGggKNNYw2GlNSn35TuC8EJblwSCJnaoH6k0ql7KjIW4bLAGFuQ5pWuXXwitt4MGiID9QplVM4PhhnoMjFo2bZavVwHYU9oJsMGZwplf8vffHsW9Ls3ZTYGXcbCD3csvNW3ZzinVWxrq1FVllziqvbro-1TBVWuqvvTCCprgCazhVmqjqJBVht-oYbyfv_n0fmT1N52LnamJ7lRsXqtuOoTTBYQrfE0TInvcko2wc3hOW1xXuMwObn_ZlYaTUGXFCTaogA5FTpTIrST0jJOYR0dawVER7VQ4Mm3h-A0rZ-fbl_fH4RPuPbimBHwIXxwEJIKTbylgvKHKv0DyfxmktcGiznhb4WscXcAEnPzQt9sFiAXnr77hWKAGZoAHq5yk9x2oB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDEIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOQEEi9_cE6WPiu7Ma0uZQDsQk4iVgtHIIMOoAKAZgLAcgLAaoNAlVTyA0B6g0TCJrS7Ma0uZQDFYIwRAgdDXgNLPANAogOCdgTDYgUBtAVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKGVBhmIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI3MrsxrS5lAMVgjBECB0NeA0sEAEYASAAEgIyhvD_BwE&num=1&cid=CAQS0AEABaugffj5MREa_ql7qtjhP4geAG7UEaqJz-vFDUyZxYUyq-4LHiHBC60C0lcMN70cdqdqjdy2rsYaISsy0wVRoDcjOdGxyi4wuxAP3Pcd-zgQtmypDwGcRPkG19IYy-FeVQr0RiO5p7faiQjk47pB2mnU9s5lH5g2put1AHG0LyvfNoK3khOD5zhsZa6pTycJCMhXxZ3FCH3u1C7UGSuFe5UA3lM6dm8soxdONwtTdCISEwbZ_RrITiSUtfozMSRKgfmSw9On9mRMDkXDVHemGAE&sig=AOD64_2uXCdvEL_-cFtwwlMoWBn8NT05gA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://leansixsigma.learnworlds.com%3Fgad_source%3D5%26gad_campaignid%3D23826765799%26gclid%3DEAIaIQobChMI3MrsxrS5lAMVgjBECB0NeA0sEAEYASAAEgIyhvD_BwE
+            - generic [ref=f32e18]:
+              - generic [ref=f32e19]: OPEN
+              - img [ref=f32e20]
+        - img [ref=f32e25] [cursor=pointer]
+        - button [ref=f32e28] [cursor=pointer]:
+          - img [ref=f32e29]
+        - iframe
+```
