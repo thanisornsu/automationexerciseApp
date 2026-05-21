@@ -1,0 +1,88 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e40]:
+    - heading [level=2] [ref=e41]: Account Created!
+    - paragraph [ref=e42]: Congratulations! Your new account has been successfully created!
+    - paragraph [ref=e43]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+    - link [ref=e45] [cursor=pointer]:
+      - /url: /
+      - text: Continue
+  - contentinfo [ref=e46]:
+    - generic [ref=e51]:
+      - heading [level=2] [ref=e52]: Subscription
+      - generic [ref=e53]:
+        - textbox [ref=e54]:
+          - /placeholder: Your email address
+        - button [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: 
+        - paragraph [ref=e57]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e61]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e62]:
+    - iframe [ref=e65]:
+      - generic [active] [ref=f34e1]:
+        - generic [ref=f34e6]:
+          - generic [ref=f34e7]:
+            - generic "Brevo" [ref=f34e8]:
+              - link "Stand out in the inbox - Try it free" [ref=f34e10] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CLRBpfFQPavL8JviH4bMPhf7ciAr3zNuShwHpocDQ5BXAjbcBEAEg_bSelQFgybafjeykgBCgAfb_6PFByAEBqQKPXQOqylJGPqgDAcgDwwSqBJQCT9AbXWWCEtBWwKWbmh-fwuiQsB3E5rUFiQ9nVemtQTrYFK6xEJBccBegWnuI5c1Guc8jW-yhiEKKjJ8WTmQsxol3Jp7vKdAwfVbJ5t1cfsBdWn4POHLpKcjmGEf2H8SkfVBqD4N1H5RaPjSep5kypZf-LfD_R_lXMrgvRMfLglDul2Qr8O1jq36V6BAMYOjeZg5GAhTq_WM7eXVSVGbauWO8PyMvbu2wqV5qNzObvRfz7wvLVGQtDcDyTD8hiAJ3igH8dvQmmyETsJzbGIt0nyhv063L9XMWOKyVOLh6bD1rOKwthotOxEWAoeT83IiMgUn0pQb8PAA8UB6nawsQTsOrm4xhqlYSMkoaoZMepWlSp_cJwAS-ydKA6gWIBcrDisZXoAZmgAf2t7nRHKgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMQiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpYzcul14bLlAOxCYYMK79-C0zXgAoBmAsByAsBqg0CVVPIDQHqDRMImq6r14bLlAMV-EN4AB0FPxeh8A0CiA4J2BMK0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGBEKCt-I54L4_____wEYZiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI8qqr14bLlAMV-EN4AB0FPxehEAEYASAAEgK3f_D_BwE&num=1&cid=CAQS9AEABaugfQTdCEy5shY8NjiInxzeuECMB9YTghisydkKboP9fysQaJngYw6N9bynvA7Ekx1kZueFazp-z9Niy4cJ3NKIJsRAkB15a0zarDbDDEBH3zJNQ18oFa6POCzVcbY-IqXwFFflzFb755mkINlov_fKttN4uRPs4zyRKrsqUal_TCUCja_ysXI0KkiVCUsvncdE68B2yooNsigWS25rVCi213A50bPcGm-uwyjHjAIFk90RLwkKTCph_5DsQQixy-S-2oySJWkn5wVw9e_WvBbSeyOySshBZbrYoDHU2S_-yrPqYLlWGpyCnLCD0cdYCjd3GAE&sig=AOD64_1L-_hYfWO3cKdAxyKwqLveQ2iRvA&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://www.brevo.com/%3Fgad_source%3D5%26gad_campaignid%3D23500857802%26gclid%3DEAIaIQobChMI8qqr14bLlAMV-EN4AB0FPxehEAEYASAAEgK3f_D_BwE
+            - link "Manage email, SMS, and CRM in one powerful platform. Brevo" [ref=f34e12] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CLRBpfFQPavL8JviH4bMPhf7ciAr3zNuShwHpocDQ5BXAjbcBEAEg_bSelQFgybafjeykgBCgAfb_6PFByAEBqQKPXQOqylJGPqgDAcgDwwSqBJQCT9AbXWWCEtBWwKWbmh-fwuiQsB3E5rUFiQ9nVemtQTrYFK6xEJBccBegWnuI5c1Guc8jW-yhiEKKjJ8WTmQsxol3Jp7vKdAwfVbJ5t1cfsBdWn4POHLpKcjmGEf2H8SkfVBqD4N1H5RaPjSep5kypZf-LfD_R_lXMrgvRMfLglDul2Qr8O1jq36V6BAMYOjeZg5GAhTq_WM7eXVSVGbauWO8PyMvbu2wqV5qNzObvRfz7wvLVGQtDcDyTD8hiAJ3igH8dvQmmyETsJzbGIt0nyhv063L9XMWOKyVOLh6bD1rOKwthotOxEWAoeT83IiMgUn0pQb8PAA8UB6nawsQTsOrm4xhqlYSMkoaoZMepWlSp_cJwAS-ydKA6gWIBcrDisZXoAZmgAf2t7nRHKgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMQiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpYzcul14bLlAOxCYYMK79-C0zXgAoBmAsByAsBqg0CVVPIDQHqDRMImq6r14bLlAMV-EN4AB0FPxeh8A0CiA4J2BMK0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGBEKCt-I54L4_____wEYZiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI8qqr14bLlAMV-EN4AB0FPxehEAEYASAAEgK3f_D_BwE&num=1&cid=CAQS9AEABaugfQTdCEy5shY8NjiInxzeuECMB9YTghisydkKboP9fysQaJngYw6N9bynvA7Ekx1kZueFazp-z9Niy4cJ3NKIJsRAkB15a0zarDbDDEBH3zJNQ18oFa6POCzVcbY-IqXwFFflzFb755mkINlov_fKttN4uRPs4zyRKrsqUal_TCUCja_ysXI0KkiVCUsvncdE68B2yooNsigWS25rVCi213A50bPcGm-uwyjHjAIFk90RLwkKTCph_5DsQQixy-S-2oySJWkn5wVw9e_WvBbSeyOySshBZbrYoDHU2S_-yrPqYLlWGpyCnLCD0cdYCjd3GAE&sig=AOD64_1L-_hYfWO3cKdAxyKwqLveQ2iRvA&client=ca-pub-1677597403311019&rf=1&nb=7&adurl=https://www.brevo.com/%3Fgad_source%3D5%26gad_campaignid%3D23500857802%26gclid%3DEAIaIQobChMI8qqr14bLlAMV-EN4AB0FPxehEAEYASAAEgK3f_D_BwE
+          - link "OPEN" [ref=f34e15] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CLRBpfFQPavL8JviH4bMPhf7ciAr3zNuShwHpocDQ5BXAjbcBEAEg_bSelQFgybafjeykgBCgAfb_6PFByAEBqQKPXQOqylJGPqgDAcgDwwSqBJQCT9AbXWWCEtBWwKWbmh-fwuiQsB3E5rUFiQ9nVemtQTrYFK6xEJBccBegWnuI5c1Guc8jW-yhiEKKjJ8WTmQsxol3Jp7vKdAwfVbJ5t1cfsBdWn4POHLpKcjmGEf2H8SkfVBqD4N1H5RaPjSep5kypZf-LfD_R_lXMrgvRMfLglDul2Qr8O1jq36V6BAMYOjeZg5GAhTq_WM7eXVSVGbauWO8PyMvbu2wqV5qNzObvRfz7wvLVGQtDcDyTD8hiAJ3igH8dvQmmyETsJzbGIt0nyhv063L9XMWOKyVOLh6bD1rOKwthotOxEWAoeT83IiMgUn0pQb8PAA8UB6nawsQTsOrm4xhqlYSMkoaoZMepWlSp_cJwAS-ydKA6gWIBcrDisZXoAZmgAf2t7nRHKgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHAdIIMQiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpYzcul14bLlAOxCYYMK79-C0zXgAoBmAsByAsBqg0CVVPIDQHqDRMImq6r14bLlAMV-EN4AB0FPxeh8A0CiA4J2BMK0BUByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGBEKCt-I54L4_____wEYZiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI8qqr14bLlAMV-EN4AB0FPxehEAEYASAAEgK3f_D_BwE&num=1&cid=CAQS9AEABaugfQTdCEy5shY8NjiInxzeuECMB9YTghisydkKboP9fysQaJngYw6N9bynvA7Ekx1kZueFazp-z9Niy4cJ3NKIJsRAkB15a0zarDbDDEBH3zJNQ18oFa6POCzVcbY-IqXwFFflzFb755mkINlov_fKttN4uRPs4zyRKrsqUal_TCUCja_ysXI0KkiVCUsvncdE68B2yooNsigWS25rVCi213A50bPcGm-uwyjHjAIFk90RLwkKTCph_5DsQQixy-S-2oySJWkn5wVw9e_WvBbSeyOySshBZbrYoDHU2S_-yrPqYLlWGpyCnLCD0cdYCjd3GAE&sig=AOD64_1L-_hYfWO3cKdAxyKwqLveQ2iRvA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://www.brevo.com/%3Fgad_source%3D5%26gad_campaignid%3D23500857802%26gclid%3DEAIaIQobChMI8qqr14bLlAMV-EN4AB0FPxehEAEYASAAEgK3f_D_BwE
+            - generic [ref=f34e18]:
+              - generic [ref=f34e19]: OPEN
+              - img [ref=f34e20]
+        - img [ref=f34e25] [cursor=pointer]
+        - button [ref=f34e28] [cursor=pointer]:
+          - img [ref=f34e29]
+        - iframe
+```
