@@ -1,0 +1,79 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e40]:
+    - heading [level=2] [ref=e41]: Account Created!
+    - paragraph [ref=e42]: Congratulations! Your new account has been successfully created!
+    - paragraph [ref=e43]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+    - link [ref=e45] [cursor=pointer]:
+      - /url: /
+      - text: Continue
+  - contentinfo [ref=e46]:
+    - generic [ref=e51]:
+      - heading [level=2] [ref=e52]: Subscription
+      - generic [ref=e53]:
+        - textbox [ref=e54]:
+          - /placeholder: Your email address
+        - button [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: 
+        - paragraph [ref=e57]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e61]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e62]:
+    - iframe [ref=e65]:
+      - generic [active] [ref=f40e1]:
+        - generic [ref=f40e3]:
+          - link:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=C0ThP6OoRarbKKPaYjeYPkNCl6AzHxdmchwHB3-q8_BXb2R4QASD9tJ6VAWDJpsGN9KTIG6AB7ZKbygPIAQKoAwHIA8kEqgT0AU_Qm1lrKQE2lE_XjRxRb3hgoc2RYXPy8mk9jptP1yqNp7KglA4GhZi1I-RiKdpyCn8FXrOAv668nt1jWlR_oNj1N1jAW9qeNFjR5soOxyCiY9oiG5_f4kY2o-diC2MaP1QyKse1lOQ6L8Qc3cCo-U-jWu7-rQ-C0A8ZyaPSK5NQmJqnhT0eykFbs782tuyjYdOBb-1vVQ1cxIrHqjS6OUQJp3WcsulrX9ZiR2HyYvmeEvlnNoHWYvFa04hOruDOVYCgnIr7vOWZRTWFNqM32wJ0JIFMNJ0h0yO6MR7V2il2nNXd5CvBQDSPD9pCBBLs45t_nC7ABIz8nN3pBYgFrYOtpVegBgKAB_vs5DWoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQLYBwHSCDEIgGEQARifAzIIioKAgICAgAg6D4BAgMCAgICAqIACqIOQEEi9_cE6WIDmr7X-z5QDsQkXTKIMkwUwtoAKAZgLAcgLAaIMA5ABAaoNAlVTyA0B6g0TCO3hsrX-z5QDFXZMwwYdEGgJzfANAogOCdgTCtAVAZgWAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgFGAIiAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMItt6ytf7PlAMVdkzDBh0QaAnNEAEYASAAEgI6K_D_BwE&num=1&cid=CAQS9AEABaugfUMugtNPE89lxC1iZE7FhvENooMJzrd0YBzYtYCsxacybw-7U1jEtvV5T3Vt6UwBpRKh-bCRsHe6Nb2lmfn5sBGbipKz-Hc3VkU7jdFVXPCZnT7GUAicIOWg6GHu5pBzRL9tkkF-YAEjAF4LJjRjDtrhnwUWxYj8PWGuUdCRo4HpkgGAaXI_P05E_bbO9sZZstnavVf4PNRQFfthLpNOMA8ESsrqaIDT4P00tnUrHSbo_jqxIBf8l8_poyeyGdpmA_Xd-Vr_qZpBoHcJZbUAgVlw5lIZ6MBBqBgGIJ6qLXYpv8J_C79Ywk_LOrJsDR_sGAE&sig=AOD64_0Sjmrpoby8HmYq8pqvZoSID4rEGQ&client=ca-pub-1677597403311019&rf=2&nb=2&adurl=https://www.northernquest.com/quest-for-the-million%3Futm_source%3DHanna_Google%26utm_medium%3DBanner%26utm_campaign%3DMoses_Lake_Quest_For_Million_Display%26gad_source%3D5%26gad_campaignid%3D23432217005%26gclid%3DEAIaIQobChMItt6ytf7PlAMVdkzDBh0QaAnNEAEYASAAEgI6K_D_BwE
+          - img [ref=f40e7] [cursor=pointer]
+          - button [ref=f40e10] [cursor=pointer]:
+            - img [ref=f40e11]
+        - iframe
+```
