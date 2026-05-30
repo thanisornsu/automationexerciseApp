@@ -1,0 +1,84 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e40]:
+    - heading [level=2] [ref=e41]: Account Created!
+    - paragraph [ref=e42]: Congratulations! Your new account has been successfully created!
+    - paragraph [ref=e43]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+    - link [ref=e45] [cursor=pointer]:
+      - /url: /
+      - text: Continue
+  - contentinfo [ref=e46]:
+    - generic [ref=e51]:
+      - heading [level=2] [ref=e52]: Subscription
+      - generic [ref=e53]:
+        - textbox [ref=e54]:
+          - /placeholder: Your email address
+        - button [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: 
+        - paragraph [ref=e57]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e61]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e62]:
+    - iframe [ref=e65]:
+      - iframe [ref=f40e1]:
+        - generic [active] [ref=f43e1]:
+          - link "Advertisement" [ref=f43e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CKDpuaCYbaorjF7_j6tkPyvHJ4QTItNjGdpyukur6EbjnrpKlFBABIP20npUBYMmG_4fwo-wSoAHSxu-IA8gBCagDAcgDSKoE-AFP0B_JtuvxaP09p5E5u2FymjlE70T52BJ3YuWP5aUmQniVo49CRWMHnZMLeNuBMP7huYKc0_M4gKHkVHjmiM5ZvB_aQcUwWVfzfkcuzIayG6ZicGJELUF5C19Cs_f4Aagk-MiFs_TnGL02j3Ql7jNfsVPdG3dTD4ZztMnmDXv-BTUWi7YqdmqA-xhdJxdH7OrNeq61VCQWua_v0tBRlzn40OXPAUU1c6197VKc5QgPCxWGue6Lf71YSOLI_QUG9NAG4qNonLO17fIyIqHA_SOoJdDXqAugoC2cOmhoI1_tw2jnXbAu-XzdKf3U_9KL3YXURZdkAps3QMAEnqqD_akEiAX0sN28S6AGLoAHlrmQd6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpYpf63tszhlANgAbEJ9oXpbwJpF6mACgGYCwHICwGADAGiDAOQAQGqDQJVU8gNAeoNEwjKvLm2zOGUAxW_sToFHcp4MkzwDQKIDgnYEwPQFQGYFgHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICpGYYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIire5tszhlAMVv7E6BR3KeDJMEAEYASAAEgK87vD_BwE&num=1&cid=CAQS8wEABaugfQHtgKY-dcaqeJ-1VKI42kiQwAclVtXH0PE2_e-XuA3kAa_Q_vgdHoLSEOF-5o9zlwNo_TCIkmljhxBOB6LcKK6yCmDnXHleydlkoizOGks8WcDJUSPwuMGkQC8C7fiUATpqU9SLg95B2Vws53IsK6ME0Gkh1u8Ndo-JVHgm8Ydm6bd42JgA9RfmE4bANiquMlB_f3ddWSZEbzIwzn9sEFC-2fs1KC2czDNXqjVUlmpVs6G5bO784T9jC6lHUn4l1beHZHkSb2fAINOWG_My0ee9TJL8aO4mz8XkM-D0Y67g1ueeY51m_P-HCFgPPEoYAQ&sig=AOD64_3Skv91T0uCwHoD9rkDxNYjv1W7XQ&client=ca-pub-1677597403311019&rf=1&nb=25&adurl=https://ad.labs.apnic.net%3Fgad_source%3D5%26gad_campaignid%3D20260018292%26gclid%3DEAIaIQobChMIire5tszhlAMVv7E6BR3KeDJMEAEYASAAEgK87vD_BwE
+            - iframe [ref=f43e9]:
+              - generic [active] [ref=f44e1] [cursor=pointer]:
+                - img [ref=f44e2]
+                - text: Thank you
+                - text: for helping us measure the Internet.
+          - img [ref=f43e13] [cursor=pointer]
+          - button [ref=f43e16] [cursor=pointer]:
+            - img [ref=f43e17]
+          - iframe
+```
