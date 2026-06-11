@@ -1,0 +1,92 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e38]:
+    - generic [ref=e40]:
+      - heading [level=2] [ref=e41]: Account Created!
+      - paragraph [ref=e42]: Congratulations! Your new account has been successfully created!
+      - paragraph [ref=e43]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+      - link [ref=e45] [cursor=pointer]:
+        - /url: /
+        - text: Continue
+    - insertion [ref=e47]:
+      - iframe [ref=e49]:
+        
+  - contentinfo [ref=e50]:
+    - generic [ref=e55]:
+      - heading [level=2] [ref=e56]: Subscription
+      - generic [ref=e57]:
+        - textbox [ref=e58]:
+          - /placeholder: Your email address
+        - button [ref=e59] [cursor=pointer]:
+          - generic [ref=e60]: 
+        - paragraph [ref=e61]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e65]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e66]:
+    - iframe [ref=e69]:
+      - generic [active] [ref=f44e1]:
+        - generic [ref=f44e5]:
+          - link [ref=f44e6] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1mz7zAwravX9Eo-Jid4Pn7PF-QjPqZrQhwH1vfOLzhXb2R4QASD9tJ6VAWDJhv-H8KPsEqABj-30uAPIAQmoAwHIA8sEqgT2AU_QixqKO8f2tqYOftAzo7lz7yHLZJUgveFPCCukKnfN_QeCq1k82AYaP8p11MERycKFUljxn3_lyRM7L_q8ioMOkHrhajVrJ8_BY32g-qAeJEFOanyksLFYVszWLOlfYJsnHRtLoC71-CcVLQE1OB8kgWfez3VtZUWUwqrLbObO31jW0BlFe5Qdgj4WMgFCr7DJQy4rX0ZgbSxQwLgP2dbSQhaEG9VK4HoX4isFDS_ytl_i47NNB9IJGFxf_dESZVhW6wH8-d97LQpG4M25YXLuuklfRYT_G-XQRULQBaDJRgRUH1xiVBJHEIywTubWwwBJaqjZdMAE6crJ1s0FiAXAvIWhV6AGLoAH2ZKLR6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpYpMucoPb_lANgAbEJGqY2YgdNAsyACgGYCwHICwGADAGiDAOQAQGqDQJVU8gNAeoNEwjsmKKg9v-UAxWPRMIFHZ9ZMY_wDQKIDgm4E-QD2BMD0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBRGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI9ZOioPb_lAMVj0TCBR2fWTGPEAEYASAAEgJxu_D_BwE&num=1&cid=CAQS9AEAEQoqgQKdN1ihB8l423musVdOSe675-uFU41quOLpa1JLq6DjKmQjk_03hhWCivicAwO6-dXzKLK-MAs1XEInx3OEiq4krT7gBVQ3TcvthI6uJ91ySo1hhUz8tVOvjrGhSUI6QfTJVH78MnFGbBZ83GRHpOJmcO2Qqt78FqKEBx-_anStWmSlpjAsnu6Kvjr1FaAr-dAmSGrJAn8-HyxLmTLALq18xwjOTnKIIFhj_rDZzlnqxmt0cKk4bF2OLaduKmy8ubdOmyGEa1qKPDj_TxvmH0VMZ4sTV5ZOIvo3JVG0e1-H0DQCUD1g0EfWnoYKlFH0GAE&sig=AOD64_3UnI1GmtnghFU8hSyIZ6UlTtMGaA&client=ca-pub-1677597403311019&rf=1&nb=9&adurl=https://www.walmart.com/ip/Hefty-Party-On-Plastic-Cups-Holiday-Assorted-Colors-16-Ounce-100-Count/13847853542%3Futm_campaign%3DHFTYSB_National_Gen_Content_NonBrnd_Null_SliderBagsImageAdsCPM%26utid%3DHFTYSB_National_Gen_Content_NonBrnd_Null_SliderBagsImageAdsCPM%26gad_source%3D5%26gad_campaignid%3D23423180352%26gclid%3DEAIaIQobChMI9ZOioPb_lAMVj0TCBR2fWTGPEAEYASAAEgJxu_D_BwE
+            - img [ref=f44e7]
+          - link [ref=f44e9] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1mz7zAwravX9Eo-Jid4Pn7PF-QjPqZrQhwH1vfOLzhXb2R4QASD9tJ6VAWDJhv-H8KPsEqABj-30uAPIAQmoAwHIA8sEqgT2AU_QixqKO8f2tqYOftAzo7lz7yHLZJUgveFPCCukKnfN_QeCq1k82AYaP8p11MERycKFUljxn3_lyRM7L_q8ioMOkHrhajVrJ8_BY32g-qAeJEFOanyksLFYVszWLOlfYJsnHRtLoC71-CcVLQE1OB8kgWfez3VtZUWUwqrLbObO31jW0BlFe5Qdgj4WMgFCr7DJQy4rX0ZgbSxQwLgP2dbSQhaEG9VK4HoX4isFDS_ytl_i47NNB9IJGFxf_dESZVhW6wH8-d97LQpG4M25YXLuuklfRYT_G-XQRULQBaDJRgRUH1xiVBJHEIywTubWwwBJaqjZdMAE6crJ1s0FiAXAvIWhV6AGLoAH2ZKLR6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpYpMucoPb_lANgAbEJGqY2YgdNAsyACgGYCwHICwGADAGiDAOQAQGqDQJVU8gNAeoNEwjsmKKg9v-UAxWPRMIFHZ9ZMY_wDQKIDgm4E-QD2BMD0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBRGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI9ZOioPb_lAMVj0TCBR2fWTGPEAEYASAAEgJxu_D_BwE&num=1&cid=CAQS9AEAEQoqgQKdN1ihB8l423musVdOSe675-uFU41quOLpa1JLq6DjKmQjk_03hhWCivicAwO6-dXzKLK-MAs1XEInx3OEiq4krT7gBVQ3TcvthI6uJ91ySo1hhUz8tVOvjrGhSUI6QfTJVH78MnFGbBZ83GRHpOJmcO2Qqt78FqKEBx-_anStWmSlpjAsnu6Kvjr1FaAr-dAmSGrJAn8-HyxLmTLALq18xwjOTnKIIFhj_rDZzlnqxmt0cKk4bF2OLaduKmy8ubdOmyGEa1qKPDj_TxvmH0VMZ4sTV5ZOIvo3JVG0e1-H0DQCUD1g0EfWnoYKlFH0GAE&sig=AOD64_3UnI1GmtnghFU8hSyIZ6UlTtMGaA&client=ca-pub-1677597403311019&rf=1&nb=19&adurl=https://www.walmart.com/ip/Hefty-Party-On-Plastic-Cups-Holiday-Assorted-Colors-16-Ounce-100-Count/13847853542%3Futm_campaign%3DHFTYSB_National_Gen_Content_NonBrnd_Null_SliderBagsImageAdsCPM%26utid%3DHFTYSB_National_Gen_Content_NonBrnd_Null_SliderBagsImageAdsCPM%26gad_source%3D5%26gad_campaignid%3D23423180352%26gclid%3DEAIaIQobChMI9ZOioPb_lAMVj0TCBR2fWTGPEAEYASAAEgJxu_D_BwE
+            - img [ref=f44e10]
+          - 'link "Hefty®, America’s #1 Party Cup" [ref=f44e13] [cursor=pointer]':
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1mz7zAwravX9Eo-Jid4Pn7PF-QjPqZrQhwH1vfOLzhXb2R4QASD9tJ6VAWDJhv-H8KPsEqABj-30uAPIAQmoAwHIA8sEqgT2AU_QixqKO8f2tqYOftAzo7lz7yHLZJUgveFPCCukKnfN_QeCq1k82AYaP8p11MERycKFUljxn3_lyRM7L_q8ioMOkHrhajVrJ8_BY32g-qAeJEFOanyksLFYVszWLOlfYJsnHRtLoC71-CcVLQE1OB8kgWfez3VtZUWUwqrLbObO31jW0BlFe5Qdgj4WMgFCr7DJQy4rX0ZgbSxQwLgP2dbSQhaEG9VK4HoX4isFDS_ytl_i47NNB9IJGFxf_dESZVhW6wH8-d97LQpG4M25YXLuuklfRYT_G-XQRULQBaDJRgRUH1xiVBJHEIywTubWwwBJaqjZdMAE6crJ1s0FiAXAvIWhV6AGLoAH2ZKLR6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpYpMucoPb_lANgAbEJGqY2YgdNAsyACgGYCwHICwGADAGiDAOQAQGqDQJVU8gNAeoNEwjsmKKg9v-UAxWPRMIFHZ9ZMY_wDQKIDgm4E-QD2BMD0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBRGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI9ZOioPb_lAMVj0TCBR2fWTGPEAEYASAAEgJxu_D_BwE&num=1&cid=CAQS9AEAEQoqgQKdN1ihB8l423musVdOSe675-uFU41quOLpa1JLq6DjKmQjk_03hhWCivicAwO6-dXzKLK-MAs1XEInx3OEiq4krT7gBVQ3TcvthI6uJ91ySo1hhUz8tVOvjrGhSUI6QfTJVH78MnFGbBZ83GRHpOJmcO2Qqt78FqKEBx-_anStWmSlpjAsnu6Kvjr1FaAr-dAmSGrJAn8-HyxLmTLALq18xwjOTnKIIFhj_rDZzlnqxmt0cKk4bF2OLaduKmy8ubdOmyGEa1qKPDj_TxvmH0VMZ4sTV5ZOIvo3JVG0e1-H0DQCUD1g0EfWnoYKlFH0GAE&sig=AOD64_3UnI1GmtnghFU8hSyIZ6UlTtMGaA&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://www.walmart.com/ip/Hefty-Party-On-Plastic-Cups-Holiday-Assorted-Colors-16-Ounce-100-Count/13847853542%3Futm_campaign%3DHFTYSB_National_Gen_Content_NonBrnd_Null_SliderBagsImageAdsCPM%26utid%3DHFTYSB_National_Gen_Content_NonBrnd_Null_SliderBagsImageAdsCPM%26gad_source%3D5%26gad_campaignid%3D23423180352%26gclid%3DEAIaIQobChMI9ZOioPb_lAMVj0TCBR2fWTGPEAEYASAAEgJxu_D_BwE
+          - link "Shop Now" [ref=f44e16] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1mz7zAwravX9Eo-Jid4Pn7PF-QjPqZrQhwH1vfOLzhXb2R4QASD9tJ6VAWDJhv-H8KPsEqABj-30uAPIAQmoAwHIA8sEqgT2AU_QixqKO8f2tqYOftAzo7lz7yHLZJUgveFPCCukKnfN_QeCq1k82AYaP8p11MERycKFUljxn3_lyRM7L_q8ioMOkHrhajVrJ8_BY32g-qAeJEFOanyksLFYVszWLOlfYJsnHRtLoC71-CcVLQE1OB8kgWfez3VtZUWUwqrLbObO31jW0BlFe5Qdgj4WMgFCr7DJQy4rX0ZgbSxQwLgP2dbSQhaEG9VK4HoX4isFDS_ytl_i47NNB9IJGFxf_dESZVhW6wH8-d97LQpG4M25YXLuuklfRYT_G-XQRULQBaDJRgRUH1xiVBJHEIywTubWwwBJaqjZdMAE6crJ1s0FiAXAvIWhV6AGLoAH2ZKLR6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpYpMucoPb_lANgAbEJGqY2YgdNAsyACgGYCwHICwGADAGiDAOQAQGqDQJVU8gNAeoNEwjsmKKg9v-UAxWPRMIFHZ9ZMY_wDQKIDgm4E-QD2BMD0BUBmBYByhYCCgD4FgGAFwGyFwQYAVAGuhcCOAGyGAkSAoBRGC4iAQDQGAHCGQIIAQ&ae=1&gclid=EAIaIQobChMI9ZOioPb_lAMVj0TCBR2fWTGPEAEYASAAEgJxu_D_BwE&num=1&cid=CAQS9AEAEQoqgQKdN1ihB8l423musVdOSe675-uFU41quOLpa1JLq6DjKmQjk_03hhWCivicAwO6-dXzKLK-MAs1XEInx3OEiq4krT7gBVQ3TcvthI6uJ91ySo1hhUz8tVOvjrGhSUI6QfTJVH78MnFGbBZ83GRHpOJmcO2Qqt78FqKEBx-_anStWmSlpjAsnu6Kvjr1FaAr-dAmSGrJAn8-HyxLmTLALq18xwjOTnKIIFhj_rDZzlnqxmt0cKk4bF2OLaduKmy8ubdOmyGEa1qKPDj_TxvmH0VMZ4sTV5ZOIvo3JVG0e1-H0DQCUD1g0EfWnoYKlFH0GAE&sig=AOD64_3UnI1GmtnghFU8hSyIZ6UlTtMGaA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://www.walmart.com/ip/Hefty-Party-On-Plastic-Cups-Holiday-Assorted-Colors-16-Ounce-100-Count/13847853542%3Futm_campaign%3DHFTYSB_National_Gen_Content_NonBrnd_Null_SliderBagsImageAdsCPM%26utid%3DHFTYSB_National_Gen_Content_NonBrnd_Null_SliderBagsImageAdsCPM%26gad_source%3D5%26gad_campaignid%3D23423180352%26gclid%3DEAIaIQobChMI9ZOioPb_lAMVj0TCBR2fWTGPEAEYASAAEgJxu_D_BwE
+            - generic [ref=f44e18]: Shop Now
+        - img [ref=f44e23] [cursor=pointer]
+        - button [ref=f44e26] [cursor=pointer]:
+          - img [ref=f44e27]
+        - iframe
+```
