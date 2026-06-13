@@ -1,0 +1,90 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e40]:
+    - heading [level=2] [ref=e41]: Account Created!
+    - paragraph [ref=e42]: Congratulations! Your new account has been successfully created!
+    - paragraph [ref=e43]: You can now take advantage of member privileges to enhance your online shopping experience with us.
+    - link [ref=e45] [cursor=pointer]:
+      - /url: /
+      - text: Continue
+  - contentinfo [ref=e46]:
+    - generic [ref=e51]:
+      - heading [level=2] [ref=e52]: Subscription
+      - generic [ref=e53]:
+        - textbox [ref=e54]:
+          - /placeholder: Your email address
+        - button [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: 
+        - paragraph [ref=e57]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e61]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e62]:
+    - iframe [ref=e65]:
+      - generic [active] [ref=f42e1]:
+        - generic [ref=f42e6]:
+          - generic [ref=f42e7]:
+            - generic "Bito" [ref=f42e8]:
+              - link "Power Claude Code with context - Ground your coding agent" [ref=f42e9] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=C-3EghpstaqPfHvD5998Pr8jugAWy9u_DhwH_vNP0gha2kB8QASD9tJ6VAWDJnvmGgICgGaAB6Oy82QPIAQGoAwHIA8MEqgSEAk_Q2IYnU9TFHYTg1xbH1Zf81ILgp-6KC3j03pKhPu61np7lSiwRkGIKWOuJi18rWjyqwf8jS42XQbK-xsIn8wVPCSjJ-9f89pzPYs1y3HEcuL60tULpDEfmf0cVjplvbAUCOjalAFcdJ-ufb4JUxxt9-uL_fCsRms1mhJECLiOuH67udMAp6KKxJApKSdsTLWecOhd5RmujRmYgRqab4sqzAQ4iFP40I4d65LpCmyWTxO9QfuMuul59mdnJqcl6U0J8MN6jMwDB6Xi2Gy45MWrzD3dZ8SKx001cRSMLQ20OZRarsws6K-ONU6UFg9UfdUMnpvXK1cpwLrieHnQZ_uQqmqjSwASp0ZT94wWIBdK0hIZZoAZmgAeAk8MmqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDkBBIvf3BOliYm4TT5oSVA2ABsQn-V4ap8Gqh1IAKAZgLAcgLAaoNAlVTyA0B6g0TCO29hNPmhJUDFfD8_QUdL6QbUPANAogOCdgTCtAVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKHVBhmIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIo7qE0-aElQMV8Pz9BR0vpBtQEAEYASAAEgK-LPD_BwE&num=1&cid=CAQS9AEAEQoqgUxs2-aW0qvU2C5yd-BO0dlVUhwT_byu_3U_F5kMTCCmOla9rJQP5cpOYKYVoigf70KJS1iba5tlTCgpFwfaDtngbbL7ELh-AwmtGjqEpb0ztBdaoYW3cSmRoH0uCVzuPp6z_VJFUOAsfqccM8FOAnyaRfrbkKezjsTnoqxuEearKkwNAvuqrly_ltDm-pbtkJtk8fpqXDoJbyLRnNJ6dbTGF-oQ7CN4gLNRWsrn4kPICP-D75J5hZSIOVUEOj-JWPF1wSJXsSjqgYUsm_qeo6snvGWBG65Fjc5NLicQhfuCcCxmnJp0dQErmemSTsHWGAE&sig=AOD64_02rU7BSzY4XI6L-GZuE-O4zujELA&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://bito.ai/product/grounded-coding/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dai_architect%26utm_term%3D%26utm_campaign%3D%26utm_source%3Dadwords%26utm_medium%3Dppc%26hsa_acc%3D8495629704%26hsa_cam%3D23903410770%26hsa_grp%3D198636284073%26hsa_ad%3D811691763963%26hsa_src%3Dd%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D5%26gad_campaignid%3D23903410770%26gclid%3DEAIaIQobChMIo7qE0-aElQMV8Pz9BR0vpBtQEAEYASAAEgK-LPD_BwE
+                - text: Power Claude Code with context - Ground
+                - text: your coding agent
+            - link "Your coding agent reasons across services, APIs, and dependencies, not just open files. Bito" [ref=f42e11] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=C-3EghpstaqPfHvD5998Pr8jugAWy9u_DhwH_vNP0gha2kB8QASD9tJ6VAWDJnvmGgICgGaAB6Oy82QPIAQGoAwHIA8MEqgSEAk_Q2IYnU9TFHYTg1xbH1Zf81ILgp-6KC3j03pKhPu61np7lSiwRkGIKWOuJi18rWjyqwf8jS42XQbK-xsIn8wVPCSjJ-9f89pzPYs1y3HEcuL60tULpDEfmf0cVjplvbAUCOjalAFcdJ-ufb4JUxxt9-uL_fCsRms1mhJECLiOuH67udMAp6KKxJApKSdsTLWecOhd5RmujRmYgRqab4sqzAQ4iFP40I4d65LpCmyWTxO9QfuMuul59mdnJqcl6U0J8MN6jMwDB6Xi2Gy45MWrzD3dZ8SKx001cRSMLQ20OZRarsws6K-ONU6UFg9UfdUMnpvXK1cpwLrieHnQZ_uQqmqjSwASp0ZT94wWIBdK0hIZZoAZmgAeAk8MmqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDkBBIvf3BOliYm4TT5oSVA2ABsQn-V4ap8Gqh1IAKAZgLAcgLAaoNAlVTyA0B6g0TCO29hNPmhJUDFfD8_QUdL6QbUPANAogOCdgTCtAVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKHVBhmIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIo7qE0-aElQMV8Pz9BR0vpBtQEAEYASAAEgK-LPD_BwE&num=1&cid=CAQS9AEAEQoqgUxs2-aW0qvU2C5yd-BO0dlVUhwT_byu_3U_F5kMTCCmOla9rJQP5cpOYKYVoigf70KJS1iba5tlTCgpFwfaDtngbbL7ELh-AwmtGjqEpb0ztBdaoYW3cSmRoH0uCVzuPp6z_VJFUOAsfqccM8FOAnyaRfrbkKezjsTnoqxuEearKkwNAvuqrly_ltDm-pbtkJtk8fpqXDoJbyLRnNJ6dbTGF-oQ7CN4gLNRWsrn4kPICP-D75J5hZSIOVUEOj-JWPF1wSJXsSjqgYUsm_qeo6snvGWBG65Fjc5NLicQhfuCcCxmnJp0dQErmemSTsHWGAE&sig=AOD64_02rU7BSzY4XI6L-GZuE-O4zujELA&client=ca-pub-1677597403311019&rf=1&nb=7&adurl=https://bito.ai/product/grounded-coding/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dai_architect%26utm_term%3D%26utm_campaign%3D%26utm_source%3Dadwords%26utm_medium%3Dppc%26hsa_acc%3D8495629704%26hsa_cam%3D23903410770%26hsa_grp%3D198636284073%26hsa_ad%3D811691763963%26hsa_src%3Dd%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D5%26gad_campaignid%3D23903410770%26gclid%3DEAIaIQobChMIo7qE0-aElQMV8Pz9BR0vpBtQEAEYASAAEgK-LPD_BwE
+          - link "OPEN" [ref=f42e14] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=C-3EghpstaqPfHvD5998Pr8jugAWy9u_DhwH_vNP0gha2kB8QASD9tJ6VAWDJnvmGgICgGaAB6Oy82QPIAQGoAwHIA8MEqgSEAk_Q2IYnU9TFHYTg1xbH1Zf81ILgp-6KC3j03pKhPu61np7lSiwRkGIKWOuJi18rWjyqwf8jS42XQbK-xsIn8wVPCSjJ-9f89pzPYs1y3HEcuL60tULpDEfmf0cVjplvbAUCOjalAFcdJ-ufb4JUxxt9-uL_fCsRms1mhJECLiOuH67udMAp6KKxJApKSdsTLWecOhd5RmujRmYgRqab4sqzAQ4iFP40I4d65LpCmyWTxO9QfuMuul59mdnJqcl6U0J8MN6jMwDB6Xi2Gy45MWrzD3dZ8SKx001cRSMLQ20OZRarsws6K-ONU6UFg9UfdUMnpvXK1cpwLrieHnQZ_uQqmqjSwASp0ZT94wWIBdK0hIZZoAZmgAeAk8MmqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDkBBIvf3BOliYm4TT5oSVA2ABsQn-V4ap8Gqh1IAKAZgLAcgLAaoNAlVTyA0B6g0TCO29hNPmhJUDFfD8_QUdL6QbUPANAogOCdgTCtAVAcoWAgoA-BYBgBcBshcEGAFQBroXAjgBshgJEgKHVBhmIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIo7qE0-aElQMV8Pz9BR0vpBtQEAEYASAAEgK-LPD_BwE&num=1&cid=CAQS9AEAEQoqgUxs2-aW0qvU2C5yd-BO0dlVUhwT_byu_3U_F5kMTCCmOla9rJQP5cpOYKYVoigf70KJS1iba5tlTCgpFwfaDtngbbL7ELh-AwmtGjqEpb0ztBdaoYW3cSmRoH0uCVzuPp6z_VJFUOAsfqccM8FOAnyaRfrbkKezjsTnoqxuEearKkwNAvuqrly_ltDm-pbtkJtk8fpqXDoJbyLRnNJ6dbTGF-oQ7CN4gLNRWsrn4kPICP-D75J5hZSIOVUEOj-JWPF1wSJXsSjqgYUsm_qeo6snvGWBG65Fjc5NLicQhfuCcCxmnJp0dQErmemSTsHWGAE&sig=AOD64_02rU7BSzY4XI6L-GZuE-O4zujELA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://bito.ai/product/grounded-coding/%3Futm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dai_architect%26utm_term%3D%26utm_campaign%3D%26utm_source%3Dadwords%26utm_medium%3Dppc%26hsa_acc%3D8495629704%26hsa_cam%3D23903410770%26hsa_grp%3D198636284073%26hsa_ad%3D811691763963%26hsa_src%3Dd%26hsa_tgt%3D%26hsa_kw%3D%26hsa_mt%3D%26hsa_net%3Dadwords%26hsa_ver%3D3%26gad_source%3D5%26gad_campaignid%3D23903410770%26gclid%3DEAIaIQobChMIo7qE0-aElQMV8Pz9BR0vpBtQEAEYASAAEgK-LPD_BwE
+            - generic [ref=f42e17]:
+              - generic [ref=f42e18]: OPEN
+              - img [ref=f42e19]
+        - img [ref=f42e24] [cursor=pointer]
+        - button [ref=f42e27] [cursor=pointer]:
+          - img [ref=f42e28]
+        - iframe
+```
