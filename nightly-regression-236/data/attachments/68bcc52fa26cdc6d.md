@@ -1,0 +1,104 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e40]:
+    - heading [level=2] [ref=e41]: Account Created!
+    - paragraph [ref=e42]: Congratulations! Your new account has been successfully created!
+    - paragraph [ref=e43]:
+      - text: You can now take advantage of member privileges to enhance your online
+      - link [ref=e44] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e45]
+        - text: shopping
+      - text: experience with us.
+    - link [ref=e48] [cursor=pointer]:
+      - /url: /
+      - text: Continue
+  - contentinfo [ref=e49]:
+    - generic [ref=e54]:
+      - heading [level=2] [ref=e55]: Subscription
+      - generic [ref=e56]:
+        - textbox [ref=e57]:
+          - /placeholder: Your email address
+        - button [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 
+        - paragraph [ref=e60]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=e64]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e66]:
+    - iframe [ref=e68]:
+      - generic [active] [ref=f36e1]:
+        - generic [ref=f36e6]:
+          - link [ref=f36e7] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1djjLS5yauGtE8G7pt8PqJKvkAaj8JDuiAGEvsWD5hWpyt_7kQ4QASD9tJ6VAWDJntiH6KOgFaAB-K65lETIAQmpAtgI3nEdVrM-qAMByAPLBKoEgAJP0NqwRR2qgga0Ig5kYnYc5D4jgLfCqk0G5exvPkHx2vtyKWYZjjbjF3U5pHuMmgqF0-umo6pQ1-Lo0mVm7QdZQdlxjAzuMQeErPPi1fg2K5PDBXpXVCv_HMwLPspbv3ML-Ts64OXmycjuTnQWegfjBaTPRrDRDemqDc3kcR8PJoPE1iEwlNlAaJXi2Rz-GuxRNHIEIMZmLLrsx_9O0rFUzm-67ozNtLTvkSwxgRzcQ701Qz_E0_Eg3JO2CT9w0shxYEfiQmLc__-Nw4day6Jvmyrhcosn9hyNARFL5fwvIerlm-bdZGwACRYeXUbqxHZOXaHbcqyL_ppDHU9Saeu1wAS2xYmm4AWIBaXT2-JZoAYugAf45on0HqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpY1LHmiMyHlgNgAbEJ1xHxgorS2pKACgGYCwHICwGADAGqDQJVU8gNAeoNEwiZ_euIzIeWAxXBnekFHSjJC2LwDQKIDgnYEwLQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICpGYYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE&num=1&cid=CAQS9AEAEQoqgZoMTqOJKO95EFMZfFu0WBWQRxWV47odPr9gvWuxh74omjfJDbqlUoedu5NkjC-UvDMz6-b42ycmeV8VR12Ik6CY16bD5U2ynkg6BA_No-1NUVxt8XkKQcVvrs3F3IDdQGQ4Dupi3OnT5EIciKG3lCNSoaPN2jbH82lyd9gjf_eu65rX4cbtW3ih7B8qYnJR-gmbMCsik87E8_Wcwnvba2g0tTUru1Zo4xirJ9vfjhzaJEOv6JtiAo6zRzaEdO1ip83sUjtFCBKmz-VJtQ0eRkTne__EIZWu5PVZp--QER_fxZrsiGa2o2M1lrtjAPGLGAE&sig=AOD64_35eptOwGRx3QiQawmbSUAioc6krA&client=ca-pub-1677597403311019&rf=1&nb=9&adurl=https://ZerivoxaConnect.com/%3Fextclickid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE%26placement%3Dautomationexercise.com%26creative%3D819737657938%26adposition%3D%26adid%3D%7Badid%7D%26matchtype%3D%26campid%3D24097778085%26target%3D%26gad_source%3D5%26gad_campaignid%3D24097778085%26gclid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE
+            - img [ref=f36e8]
+          - generic [ref=f36e10]:
+            - generic [ref=f36e13]:
+              - link "Skip Ad" [ref=f36e17] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1djjLS5yauGtE8G7pt8PqJKvkAaj8JDuiAGEvsWD5hWpyt_7kQ4QASD9tJ6VAWDJntiH6KOgFaAB-K65lETIAQmpAtgI3nEdVrM-qAMByAPLBKoEgAJP0NqwRR2qgga0Ig5kYnYc5D4jgLfCqk0G5exvPkHx2vtyKWYZjjbjF3U5pHuMmgqF0-umo6pQ1-Lo0mVm7QdZQdlxjAzuMQeErPPi1fg2K5PDBXpXVCv_HMwLPspbv3ML-Ts64OXmycjuTnQWegfjBaTPRrDRDemqDc3kcR8PJoPE1iEwlNlAaJXi2Rz-GuxRNHIEIMZmLLrsx_9O0rFUzm-67ozNtLTvkSwxgRzcQ701Qz_E0_Eg3JO2CT9w0shxYEfiQmLc__-Nw4day6Jvmyrhcosn9hyNARFL5fwvIerlm-bdZGwACRYeXUbqxHZOXaHbcqyL_ppDHU9Saeu1wAS2xYmm4AWIBaXT2-JZoAYugAf45on0HqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpY1LHmiMyHlgNgAbEJ1xHxgorS2pKACgGYCwHICwGADAGqDQJVU8gNAeoNEwiZ_euIzIeWAxXBnekFHSjJC2LwDQKIDgnYEwLQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICpGYYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE&num=1&cid=CAQS9AEAEQoqgZoMTqOJKO95EFMZfFu0WBWQRxWV47odPr9gvWuxh74omjfJDbqlUoedu5NkjC-UvDMz6-b42ycmeV8VR12Ik6CY16bD5U2ynkg6BA_No-1NUVxt8XkKQcVvrs3F3IDdQGQ4Dupi3OnT5EIciKG3lCNSoaPN2jbH82lyd9gjf_eu65rX4cbtW3ih7B8qYnJR-gmbMCsik87E8_Wcwnvba2g0tTUru1Zo4xirJ9vfjhzaJEOv6JtiAo6zRzaEdO1ip83sUjtFCBKmz-VJtQ0eRkTne__EIZWu5PVZp--QER_fxZrsiGa2o2M1lrtjAPGLGAE&sig=AOD64_35eptOwGRx3QiQawmbSUAioc6krA&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://ZerivoxaConnect.com/%3Fextclickid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE%26placement%3Dautomationexercise.com%26creative%3D819737657938%26adposition%3D%26adid%3D%7Badid%7D%26matchtype%3D%26campid%3D24097778085%26target%3D%26gad_source%3D5%26gad_campaignid%3D24097778085%26gclid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE
+              - link "Make browsing more stable and predictable." [ref=f36e21] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1djjLS5yauGtE8G7pt8PqJKvkAaj8JDuiAGEvsWD5hWpyt_7kQ4QASD9tJ6VAWDJntiH6KOgFaAB-K65lETIAQmpAtgI3nEdVrM-qAMByAPLBKoEgAJP0NqwRR2qgga0Ig5kYnYc5D4jgLfCqk0G5exvPkHx2vtyKWYZjjbjF3U5pHuMmgqF0-umo6pQ1-Lo0mVm7QdZQdlxjAzuMQeErPPi1fg2K5PDBXpXVCv_HMwLPspbv3ML-Ts64OXmycjuTnQWegfjBaTPRrDRDemqDc3kcR8PJoPE1iEwlNlAaJXi2Rz-GuxRNHIEIMZmLLrsx_9O0rFUzm-67ozNtLTvkSwxgRzcQ701Qz_E0_Eg3JO2CT9w0shxYEfiQmLc__-Nw4day6Jvmyrhcosn9hyNARFL5fwvIerlm-bdZGwACRYeXUbqxHZOXaHbcqyL_ppDHU9Saeu1wAS2xYmm4AWIBaXT2-JZoAYugAf45on0HqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpY1LHmiMyHlgNgAbEJ1xHxgorS2pKACgGYCwHICwGADAGqDQJVU8gNAeoNEwiZ_euIzIeWAxXBnekFHSjJC2LwDQKIDgnYEwLQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICpGYYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE&num=1&cid=CAQS9AEAEQoqgZoMTqOJKO95EFMZfFu0WBWQRxWV47odPr9gvWuxh74omjfJDbqlUoedu5NkjC-UvDMz6-b42ycmeV8VR12Ik6CY16bD5U2ynkg6BA_No-1NUVxt8XkKQcVvrs3F3IDdQGQ4Dupi3OnT5EIciKG3lCNSoaPN2jbH82lyd9gjf_eu65rX4cbtW3ih7B8qYnJR-gmbMCsik87E8_Wcwnvba2g0tTUru1Zo4xirJ9vfjhzaJEOv6JtiAo6zRzaEdO1ip83sUjtFCBKmz-VJtQ0eRkTne__EIZWu5PVZp--QER_fxZrsiGa2o2M1lrtjAPGLGAE&sig=AOD64_35eptOwGRx3QiQawmbSUAioc6krA&client=ca-pub-1677597403311019&rf=1&nb=7&adurl=https://ZerivoxaConnect.com/%3Fextclickid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE%26placement%3Dautomationexercise.com%26creative%3D819737657938%26adposition%3D%26adid%3D%7Badid%7D%26matchtype%3D%26campid%3D24097778085%26target%3D%26gad_source%3D5%26gad_campaignid%3D24097778085%26gclid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE
+            - generic [ref=f36e24]:
+              - link:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1djjLS5yauGtE8G7pt8PqJKvkAaj8JDuiAGEvsWD5hWpyt_7kQ4QASD9tJ6VAWDJntiH6KOgFaAB-K65lETIAQmpAtgI3nEdVrM-qAMByAPLBKoEgAJP0NqwRR2qgga0Ig5kYnYc5D4jgLfCqk0G5exvPkHx2vtyKWYZjjbjF3U5pHuMmgqF0-umo6pQ1-Lo0mVm7QdZQdlxjAzuMQeErPPi1fg2K5PDBXpXVCv_HMwLPspbv3ML-Ts64OXmycjuTnQWegfjBaTPRrDRDemqDc3kcR8PJoPE1iEwlNlAaJXi2Rz-GuxRNHIEIMZmLLrsx_9O0rFUzm-67ozNtLTvkSwxgRzcQ701Qz_E0_Eg3JO2CT9w0shxYEfiQmLc__-Nw4day6Jvmyrhcosn9hyNARFL5fwvIerlm-bdZGwACRYeXUbqxHZOXaHbcqyL_ppDHU9Saeu1wAS2xYmm4AWIBaXT2-JZoAYugAf45on0HqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpY1LHmiMyHlgNgAbEJ1xHxgorS2pKACgGYCwHICwGADAGqDQJVU8gNAeoNEwiZ_euIzIeWAxXBnekFHSjJC2LwDQKIDgnYEwLQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICpGYYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE&num=1&cid=CAQS9AEAEQoqgZoMTqOJKO95EFMZfFu0WBWQRxWV47odPr9gvWuxh74omjfJDbqlUoedu5NkjC-UvDMz6-b42ycmeV8VR12Ik6CY16bD5U2ynkg6BA_No-1NUVxt8XkKQcVvrs3F3IDdQGQ4Dupi3OnT5EIciKG3lCNSoaPN2jbH82lyd9gjf_eu65rX4cbtW3ih7B8qYnJR-gmbMCsik87E8_Wcwnvba2g0tTUru1Zo4xirJ9vfjhzaJEOv6JtiAo6zRzaEdO1ip83sUjtFCBKmz-VJtQ0eRkTne__EIZWu5PVZp--QER_fxZrsiGa2o2M1lrtjAPGLGAE&sig=AOD64_35eptOwGRx3QiQawmbSUAioc6krA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://ZerivoxaConnect.com/%3Fextclickid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE%26placement%3Dautomationexercise.com%26creative%3D819737657938%26adposition%3D%26adid%3D%7Badid%7D%26matchtype%3D%26campid%3D24097778085%26target%3D%26gad_source%3D5%26gad_campaignid%3D24097778085%26gclid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE
+              - link "ZerivoxaConnect.com" [ref=f36e26] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1djjLS5yauGtE8G7pt8PqJKvkAaj8JDuiAGEvsWD5hWpyt_7kQ4QASD9tJ6VAWDJntiH6KOgFaAB-K65lETIAQmpAtgI3nEdVrM-qAMByAPLBKoEgAJP0NqwRR2qgga0Ig5kYnYc5D4jgLfCqk0G5exvPkHx2vtyKWYZjjbjF3U5pHuMmgqF0-umo6pQ1-Lo0mVm7QdZQdlxjAzuMQeErPPi1fg2K5PDBXpXVCv_HMwLPspbv3ML-Ts64OXmycjuTnQWegfjBaTPRrDRDemqDc3kcR8PJoPE1iEwlNlAaJXi2Rz-GuxRNHIEIMZmLLrsx_9O0rFUzm-67ozNtLTvkSwxgRzcQ701Qz_E0_Eg3JO2CT9w0shxYEfiQmLc__-Nw4day6Jvmyrhcosn9hyNARFL5fwvIerlm-bdZGwACRYeXUbqxHZOXaHbcqyL_ppDHU9Saeu1wAS2xYmm4AWIBaXT2-JZoAYugAf45on0HqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpY1LHmiMyHlgNgAbEJ1xHxgorS2pKACgGYCwHICwGADAGqDQJVU8gNAeoNEwiZ_euIzIeWAxXBnekFHSjJC2LwDQKIDgnYEwLQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICpGYYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE&num=1&cid=CAQS9AEAEQoqgZoMTqOJKO95EFMZfFu0WBWQRxWV47odPr9gvWuxh74omjfJDbqlUoedu5NkjC-UvDMz6-b42ycmeV8VR12Ik6CY16bD5U2ynkg6BA_No-1NUVxt8XkKQcVvrs3F3IDdQGQ4Dupi3OnT5EIciKG3lCNSoaPN2jbH82lyd9gjf_eu65rX4cbtW3ih7B8qYnJR-gmbMCsik87E8_Wcwnvba2g0tTUru1Zo4xirJ9vfjhzaJEOv6JtiAo6zRzaEdO1ip83sUjtFCBKmz-VJtQ0eRkTne__EIZWu5PVZp--QER_fxZrsiGa2o2M1lrtjAPGLGAE&sig=AOD64_35eptOwGRx3QiQawmbSUAioc6krA&client=ca-pub-1677597403311019&rf=1&nb=1&adurl=https://ZerivoxaConnect.com/%3Fextclickid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE%26placement%3Dautomationexercise.com%26creative%3D819737657938%26adposition%3D%26adid%3D%7Badid%7D%26matchtype%3D%26campid%3D24097778085%26target%3D%26gad_source%3D5%26gad_campaignid%3D24097778085%26gclid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE
+              - link "Open" [ref=f36e28] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1djjLS5yauGtE8G7pt8PqJKvkAaj8JDuiAGEvsWD5hWpyt_7kQ4QASD9tJ6VAWDJntiH6KOgFaAB-K65lETIAQmpAtgI3nEdVrM-qAMByAPLBKoEgAJP0NqwRR2qgga0Ig5kYnYc5D4jgLfCqk0G5exvPkHx2vtyKWYZjjbjF3U5pHuMmgqF0-umo6pQ1-Lo0mVm7QdZQdlxjAzuMQeErPPi1fg2K5PDBXpXVCv_HMwLPspbv3ML-Ts64OXmycjuTnQWegfjBaTPRrDRDemqDc3kcR8PJoPE1iEwlNlAaJXi2Rz-GuxRNHIEIMZmLLrsx_9O0rFUzm-67ozNtLTvkSwxgRzcQ701Qz_E0_Eg3JO2CT9w0shxYEfiQmLc__-Nw4day6Jvmyrhcosn9hyNARFL5fwvIerlm-bdZGwACRYeXUbqxHZOXaHbcqyL_ppDHU9Saeu1wAS2xYmm4AWIBaXT2-JZoAYugAf45on0HqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpY1LHmiMyHlgNgAbEJ1xHxgorS2pKACgGYCwHICwGADAGqDQJVU8gNAeoNEwiZ_euIzIeWAxXBnekFHSjJC2LwDQKIDgnYEwLQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICpGYYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE&num=1&cid=CAQS9AEAEQoqgZoMTqOJKO95EFMZfFu0WBWQRxWV47odPr9gvWuxh74omjfJDbqlUoedu5NkjC-UvDMz6-b42ycmeV8VR12Ik6CY16bD5U2ynkg6BA_No-1NUVxt8XkKQcVvrs3F3IDdQGQ4Dupi3OnT5EIciKG3lCNSoaPN2jbH82lyd9gjf_eu65rX4cbtW3ih7B8qYnJR-gmbMCsik87E8_Wcwnvba2g0tTUru1Zo4xirJ9vfjhzaJEOv6JtiAo6zRzaEdO1ip83sUjtFCBKmz-VJtQ0eRkTne__EIZWu5PVZp--QER_fxZrsiGa2o2M1lrtjAPGLGAE&sig=AOD64_35eptOwGRx3QiQawmbSUAioc6krA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://ZerivoxaConnect.com/%3Fextclickid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE%26placement%3Dautomationexercise.com%26creative%3D819737657938%26adposition%3D%26adid%3D%7Badid%7D%26matchtype%3D%26campid%3D24097778085%26target%3D%26gad_source%3D5%26gad_campaignid%3D24097778085%26gclid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE
+              - link [ref=f36e29] [cursor=pointer]:
+                - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=C1djjLS5yauGtE8G7pt8PqJKvkAaj8JDuiAGEvsWD5hWpyt_7kQ4QASD9tJ6VAWDJntiH6KOgFaAB-K65lETIAQmpAtgI3nEdVrM-qAMByAPLBKoEgAJP0NqwRR2qgga0Ig5kYnYc5D4jgLfCqk0G5exvPkHx2vtyKWYZjjbjF3U5pHuMmgqF0-umo6pQ1-Lo0mVm7QdZQdlxjAzuMQeErPPi1fg2K5PDBXpXVCv_HMwLPspbv3ML-Ts64OXmycjuTnQWegfjBaTPRrDRDemqDc3kcR8PJoPE1iEwlNlAaJXi2Rz-GuxRNHIEIMZmLLrsx_9O0rFUzm-67ozNtLTvkSwxgRzcQ701Qz_E0_Eg3JO2CT9w0shxYEfiQmLc__-Nw4day6Jvmyrhcosn9hyNARFL5fwvIerlm-bdZGwACRYeXUbqxHZOXaHbcqyL_ppDHU9Saeu1wAS2xYmm4AWIBaXT2-JZoAYugAf45on0HqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIIMwiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog5AQSL39wTpY1LHmiMyHlgNgAbEJ1xHxgorS2pKACgGYCwHICwGADAGqDQJVU8gNAeoNEwiZ_euIzIeWAxXBnekFHSjJC2LwDQKIDgnYEwLQFQHKFgIKAPgWAYAXAbIXBBgBUAa6FwI4AbIYCRICpGYYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE&num=1&cid=CAQS9AEAEQoqgZoMTqOJKO95EFMZfFu0WBWQRxWV47odPr9gvWuxh74omjfJDbqlUoedu5NkjC-UvDMz6-b42ycmeV8VR12Ik6CY16bD5U2ynkg6BA_No-1NUVxt8XkKQcVvrs3F3IDdQGQ4Dupi3OnT5EIciKG3lCNSoaPN2jbH82lyd9gjf_eu65rX4cbtW3ih7B8qYnJR-gmbMCsik87E8_Wcwnvba2g0tTUru1Zo4xirJ9vfjhzaJEOv6JtiAo6zRzaEdO1ip83sUjtFCBKmz-VJtQ0eRkTne__EIZWu5PVZp--QER_fxZrsiGa2o2M1lrtjAPGLGAE&sig=AOD64_35eptOwGRx3QiQawmbSUAioc6krA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://ZerivoxaConnect.com/%3Fextclickid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE%26placement%3Dautomationexercise.com%26creative%3D819737657938%26adposition%3D%26adid%3D%7Badid%7D%26matchtype%3D%26campid%3D24097778085%26target%3D%26gad_source%3D5%26gad_campaignid%3D24097778085%26gclid%3DEAIaIQobChMIofjriMyHlgMVwZ3pBR0oyQtiEAEYASAAEgLHqPD_BwE
+                - generic [ref=f36e31]:
+                  - img [ref=f36e32]
+                  - img [ref=f36e34]
+        - img [ref=f36e42] [cursor=pointer]
+        - button [ref=f36e46] [cursor=pointer]:
+          - img [ref=f36e47]
+        - iframe
+```
