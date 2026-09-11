@@ -1,0 +1,12 @@
+{
+  "average": "175.40ms",
+  "min": "156ms",
+  "max": "243ms",
+  "measurements": [
+    "164ms",
+    "243ms",
+    "157ms",
+    "157ms",
+    "156ms"
+  ]
+}
